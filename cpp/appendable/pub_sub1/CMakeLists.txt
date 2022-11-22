@@ -26,7 +26,8 @@ message(STATUS "Directory ENV{LD_LIBRARY_PATH}: $ENV{LD_LIBRARY_PATH}")
 #    COMMAND /usr/local/lib/cyclonedds/bin/idlc -l cxx -Wno-implicit-extensibility -o ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/test.idl WORKING_DIRECTORY  ${CMAKE_CURRENT_SOURCE_DIR})
 
 add_custom_command(
-    COMMAND /usr/local/lib/cyclonedds/bin/idlc -l cxx -Wno-implicit-extensibility -o ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/test.idl 
+    COMMAND ${CMAKE_COMMAND} -E env "LD_LIBRARY_PATH=$ENV{LD_LIBRARY_PATH}" 
+    /usr/local/lib/cyclonedds/bin/idlc -l cxx -Wno-implicit-extensibility -o ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/test.idl 
     WORKING_DIRECTORY  ${CMAKE_CURRENT_SOURCE_DIR} 
     DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/test.idl
     OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/test.cpp
