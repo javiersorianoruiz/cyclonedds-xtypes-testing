@@ -1,0 +1,34 @@
+module module_test {
+    @topic
+    @appendable
+    @autoid(HASH)
+    struct Msg
+    {
+        @hashid
+        long userID;
+        @hashid
+        string message;
+    };
+};
+
+// module module_test {
+//     @topic
+//     @appendable
+//     @autoid(HASH)
+//     struct Msg
+//     {
+//         long userID;
+//         string message;
+//     };
+// };
+
+// module module_test {
+//     @topic
+//     @appendable
+//     @autoid(SEQUENTIAL)
+//     struct Msg
+//     {
+//         @id(1) long userID;
+//         @id(2) string message;
+//     };
+// };

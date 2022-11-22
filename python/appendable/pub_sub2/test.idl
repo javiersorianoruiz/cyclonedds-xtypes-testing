@@ -1,0 +1,10 @@
+module module_test {
+    @topic
+    @appendable
+    struct Msg
+    {
+        long userID;
+        string message;
+        int32 extra_value;
+    };
+};

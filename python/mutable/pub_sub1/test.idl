@@ -1,0 +1,10 @@
+module module_test {
+    @topic
+    @mutable
+    @autoid(HASH)
+    struct Msg
+    {
+        long userID;
+        string message;
+    };
+};
