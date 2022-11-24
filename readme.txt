@@ -49,6 +49,9 @@ cmake   -DCMAKE_INSTALL_PREFIX=/usr/local/lib/cyclonedds-cxx \
             -DENABLE_TOPIC_DISCOVERY=ON \
             -DENABLE_TYPE_DISCOVERY=ON \
             ..
+In one line:
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib/cyclonedds-cxx -DCMAKE_PREFIX_PATH=/usr/local/lib/cyclonedds -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Debug -DENABLE_TOPIC_DISCOVERY=ON -DENABLE_TYPE_DISCOVERY=ON ..
+
 
 //compilation
 cmake --build .
