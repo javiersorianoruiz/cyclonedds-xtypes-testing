@@ -72,3 +72,5 @@ make
 
 #needed for isolated compilation in a inner folder:
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/cyclonedds-cxx/lib/
+
+export CYCLONEDDS_URI=/app/cyclonedds-xtypes-testing/debug_dds.xml

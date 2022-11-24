@@ -1,0 +1,1439 @@
+1669283274.346055 [0] appendable: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
+1669283274.346160 [0] appendable: config: Domain/General/ExternalNetworkAddress/#text: auto {}
+1669283274.346164 [0] appendable: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
+1669283274.346167 [0] appendable: config: Domain/General/AllowMulticast/#text: default {}
+1669283274.346170 [0] appendable: config: Domain/General/MulticastTimeToLive/#text: 32 {}
+1669283274.346173 [0] appendable: config: Domain/General/DontRoute/#text: false {}
+1669283274.346177 [0] appendable: config: Domain/General/Transport/#text: udp {}
+1669283274.346179 [0] appendable: config: Domain/General/EnableMulticastLoopback/#text: true {}
+1669283274.346182 [0] appendable: config: Domain/General/MaxMessageSize/#text: 14720 B {}
+1669283274.346185 [0] appendable: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
+1669283274.346188 [0] appendable: config: Domain/General/FragmentSize/#text: 1344 B {}
+1669283274.346190 [0] appendable: config: Domain/General/RedundantNetworking/#text: false {}
+1669283274.346193 [0] appendable: config: Domain/General/EntityAutoNaming/#text: empty {}
+1669283274.346196 [0] appendable: config: Domain/General/EntityAutoNaming[@seed]: 129625052 3138048598 2401576015 2014338155 964093889 3650691843 1551308828 333996444 {}
+1669283274.346202 [0] appendable: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
+1669283274.346205 [0] appendable: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
+1669283274.346208 [0] appendable: config: Domain/Compatibility/StandardsConformance/#text: lax {}
+1669283274.346210 [0] appendable: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
+1669283274.346213 [0] appendable: config: Domain/Compatibility/ManySocketsMode/#text: single {}
+1669283274.346216 [0] appendable: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
+1669283274.346219 [0] appendable: config: Domain/Discovery/Tag/#text:  {}
+1669283274.346221 [0] appendable: config: Domain/Discovery/ExternalDomainId/#text: 0 {}
+1669283274.346224 [0] appendable: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
+1669283274.346227 [0] appendable: config: Domain/Discovery/ParticipantIndex/#text: none {}
+1669283274.346230 [0] appendable: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 9 {}
+1669283274.346232 [0] appendable: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
+1669283274.346235 [0] appendable: config: Domain/Discovery/SPDPInterval/#text: 30 s {}
+1669283274.346237 [0] appendable: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
+1669283274.346240 [0] appendable: config: Domain/Discovery/Ports/Base/#text: 7400 {}
+1669283274.346243 [0] appendable: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
+1669283274.346245 [0] appendable: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
+1669283274.346248 [0] appendable: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
+1669283274.346251 [0] appendable: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
+1669283274.346253 [0] appendable: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
+1669283274.346256 [0] appendable: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
+1669283274.346258 [0] appendable: config: Domain/Discovery/EnableTopicDiscoveryEndpoints/#text: false {}
+1669283274.346261 [0] appendable: config: Domain/Discovery/LeaseDuration/#text: 10 s {}
+1669283274.346294 [0] appendable: config: Domain/Tracing/Category/#text: trace {0}
+1669283274.346314 [0] appendable: config: Domain/Tracing/OutputFile/#text: cdds.log.236 {0}
+1669283274.346318 [0] appendable: config: Domain/Tracing/AppendToFile/#text: false {}
+1669283274.346321 [0] appendable: config: Domain/Tracing/PacketCaptureFile/#text:  {}
+1669283274.346324 [0] appendable: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
+1669283274.346327 [0] appendable: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
+1669283274.346329 [0] appendable: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
+1669283274.346337 [0] appendable: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
+1669283274.346353 [0] appendable: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
+1669283274.346358 [0] appendable: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
+1669283274.346362 [0] appendable: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
+1669283274.346366 [0] appendable: config: Domain/Internal/UnicastResponseToSPDPMessages/#text: true {}
+1669283274.346378 [0] appendable: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 0 {}
+1669283274.346384 [0] appendable: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
+1669283274.346387 [0] appendable: config: Domain/Internal/MaxParticipants/#text: 0 {}
+1669283274.346390 [0] appendable: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
+1669283274.346393 [0] appendable: config: Domain/Internal/RetransmitMerging/#text: never {}
+1669283274.346396 [0] appendable: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
+1669283274.346401 [0] appendable: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
+1669283274.346404 [0] appendable: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
+1669283274.346406 [0] appendable: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
+1669283274.346409 [0] appendable: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
+1669283274.346412 [0] appendable: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
+1669283274.346414 [0] appendable: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
+1669283274.346417 [0] appendable: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
+1669283274.346420 [0] appendable: config: Domain/Internal/SocketReceiveBufferSize[@min]: default {}
+1669283274.346422 [0] appendable: config: Domain/Internal/SocketReceiveBufferSize[@max]: default {}
+1669283274.346425 [0] appendable: config: Domain/Internal/SocketSendBufferSize[@min]: 64 KiB {}
+1669283274.346428 [0] appendable: config: Domain/Internal/SocketSendBufferSize[@max]: default {}
+1669283274.346431 [0] appendable: config: Domain/Internal/NackDelay/#text: 100 ms {}
+1669283274.346433 [0] appendable: config: Domain/Internal/AckDelay/#text: 10 ms {}
+1669283274.346436 [0] appendable: config: Domain/Internal/AutoReschedNackDelay/#text: 3 s {}
+1669283274.346440 [0] appendable: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
+1669283274.346442 [0] appendable: config: Domain/Internal/ScheduleTimeRounding/#text: 0 s {}
+1669283274.346445 [0] appendable: config: Domain/Internal/DDSI2DirectMaxThreads/#text: 1 {}
+1669283274.346447 [0] appendable: config: Domain/Internal/SquashParticipants/#text: false {}
+1669283274.346450 [0] appendable: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
+1669283274.346452 [0] appendable: config: Domain/Internal/LateAckMode/#text: false {}
+1669283274.346455 [0] appendable: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
+1669283274.346457 [0] appendable: config: Domain/Internal/GenerateKeyhash/#text: false {}
+1669283274.346460 [0] appendable: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
+1669283274.346462 [0] appendable: config: Domain/Internal/WriteBatch/#text: false {}
+1669283274.346465 [0] appendable: config: Domain/Internal/LivelinessMonitoring/#text: false {}
+1669283274.346468 [0] appendable: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
+1669283274.346470 [0] appendable: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
+1669283274.346473 [0] appendable: config: Domain/Internal/MonitorPort/#text: -1 {}
+1669283274.346475 [0] appendable: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
+1669283274.346478 [0] appendable: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
+1669283274.346480 [0] appendable: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
+1669283274.346483 [0] appendable: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
+1669283274.346489 [0] appendable: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
+1669283274.346492 [0] appendable: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
+1669283274.346495 [0] appendable: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
+1669283274.346498 [0] appendable: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
+1669283274.346501 [0] appendable: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {}
+1669283274.346503 [0] appendable: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
+1669283274.346506 [0] appendable: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
+1669283274.346509 [0] appendable: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
+1669283274.346512 [0] appendable: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
+1669283274.346514 [0] appendable: config: Domain/Internal/EnableExpensiveChecks/#text:  {}
+1669283274.346518 [0] appendable: config: Domain/TCP/NoDelay/#text: true {}
+1669283274.346520 [0] appendable: config: Domain/TCP/Port/#text: -1 {}
+1669283274.346523 [0] appendable: config: Domain/TCP/ReadTimeout/#text: 2 s {}
+1669283274.346526 [0] appendable: config: Domain/TCP/WriteTimeout/#text: 2 s {}
+1669283274.346528 [0] appendable: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
+1669283274.346531 [0] appendable: config: Domain[@Id]: 0 {}
+1669283274.346724 [0] appendable: started at 1669283274.06346550 -- 2022-11-24 09:47:54+00:00
+1669283274.346776 [0] appendable: udp initialized
+1669283274.347527 [0] appendable: interfaces: lo udp/127.0.0.1(q1) eth0 udp/172.17.0.5(q9)
+1669283274.347568 [0] appendable: selected interfaces: eth0 (index 14 priority 0)
+1669283274.347572 [0] appendable: presumed robust multicast support, use for everything
+1669283274.347647 [0] appendable: ownip: udp/172.17.0.5
+1669283274.347668 [0] appendable: extmask: invalid/0 (not applicable)
+1669283274.347672 [0] appendable: SPDP MC: udp/239.255.0.1
+1669283274.347674 [0] appendable: default MC: udp/239.255.0.1
+1669283274.347676 [0] appendable: SSM support included
+1669283274.348214 [0] appendable: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1669283274.348284 [0] appendable: ddsi_udp_create_conn unicast socket 4 port 39149
+1669283274.348289 [0] appendable: rtps_init: uc ports: disc 0 data 0
+1669283274.348291 [0] appendable: rtps_init: domainid 0 participantid -2
+1669283274.348294 [0] appendable: Unicast Ports: discovery 39149 data 39149
+1669283274.348803 [0] appendable: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1669283274.348883 [0] appendable: ddsi_udp_create_conn multicast socket 5 port 7400
+1669283274.348894 [0] appendable: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1669283274.348910 [0] appendable: ddsi_udp_create_conn multicast socket 6 port 7401
+1669283274.348927 [0] appendable: Multicast Ports: discovery 7400 data 7401 
+1669283274.348933 [0] appendable: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1669283274.348992 [0] appendable: ddsi_udp_create_conn transmit(uc/mc) socket 7 port 37816
+1669283274.349031 [0] appendable: interface eth0: transmit port 37816
+1669283274.349088 [0] appendable: join conn 0x55d1fda9ebd0 for (udp/239.255.0.1, *) interface udp/172.17.0.5
+1669283274.349121 [0] appendable: join conn 0x55d1fda9e6c0 for (udp/239.255.0.1, *) interface udp/172.17.0.5
+1669283274.349139 [0] appendable: join conn 0x55d1fda9ebd0 for (udp/239.255.0.1, *) interface (default): already joined
+1669283274.349143 [0] appendable: join conn 0x55d1fda9e6c0 for (udp/239.255.0.1, *) interface (default): already joined
+1669283274.349327 [0] appendable: ddsi_new_local_orphan_writer(DCPSParticipant/org::eclipse::cyclonedds::builtin::DCPSParticipant)
+1669283274.349437 [0] appendable: WRITER 0:0:0:100c2 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="org::eclipse::cyclonedds::builtin::DCPSParticipant",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.349552 [0] appendable: match_writer_with_readers(wr 0:0:0:100c2) scanning all rds of topic DCPSParticipant
+1669283274.349570 [0] appendable: ddsi_new_local_orphan_writer(DCPSTopic/org::eclipse::cyclonedds::builtin::DCPSTopic)
+1669283274.349592 [0] appendable: WRITER 0:0:0:2c2 QOS={user_data=0<>,topic_name="DCPSTopic",type_name="org::eclipse::cyclonedds::builtin::DCPSTopic",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.349609 [0] appendable: match_writer_with_readers(wr 0:0:0:2c2) scanning all rds of topic DCPSTopic
+1669283274.349613 [0] appendable: ddsi_new_local_orphan_writer(DCPSPublication/org::eclipse::cyclonedds::builtin::DCPSPublication)
+1669283274.349627 [0] appendable: WRITER 0:0:0:3c2 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="org::eclipse::cyclonedds::builtin::DCPSPublication",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.349644 [0] appendable: match_writer_with_readers(wr 0:0:0:3c2) scanning all rds of topic DCPSPublication
+1669283274.349648 [0] appendable: ddsi_new_local_orphan_writer(DCPSSubscription/org::eclipse::cyclonedds::builtin::DCPSSubscription)
+1669283274.349661 [0] appendable: WRITER 0:0:0:4c2 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="org::eclipse::cyclonedds::builtin::DCPSSubscription",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.349664 [0] appendable: match_writer_with_readers(wr 0:0:0:4c2) scanning all rds of topic DCPSSubscription
+1669283274.349703 [0] appendable: create_thread: gc: class 0 priority 0 stack 0
+1669283274.349808 [0] appendable: create_thread: dq.builtins: class 0 priority 0 stack 0
+1669283274.349893 [0]         gc: started new thread 237: gc
+1669283274.349946 [0] appendable: create_thread: dq.user: class 0 priority 0 stack 0
+1669283274.349954 [0] dq.builtin: started new thread 238: dq.builtins
+1669283274.350058 [0]    dq.user: started new thread 239: dq.user
+1669283274.350074 [0] appendable: create_thread: tev: class 0 priority 0 stack 0
+1669283274.350132 [0]        tev: started new thread 240: tev
+1669283274.350158 [0] dq.builtin: thread_cputime 0.000000000
+1669283274.350173 [0] appendable: create_thread: recv: class 0 priority 0 stack 0
+1669283274.350193 [0]        tev: thread_cputime 0.000000000
+1669283274.350213 [0]    dq.user: thread_cputime 0.000000000
+1669283274.350222 [0]         gc: thread_cputime 0.000000000
+1669283274.350216 [0] appendable: create_thread: recvMC: class 0 priority 0 stack 0
+1669283274.350276 [0]       recv: started new thread 241: recv
+1669283274.350330 [0]     recvMC: started new thread 242: recvMC
+1669283274.350340 [0] appendable: create_thread: recvUC: class 0 priority 0 stack 0
+1669283274.350349 [0]     recvMC: thread_cputime 0.000000000
+1669283274.350402 [0]       recv: thread_cputime 0.000000000
+1669283274.350439 [0] appendable: ddsi_new_participant(1103e9d:bb552e58:7fa192ac:1c1, 0)
+1669283274.350407 [0]     recvUC: started new thread 243: recvUC
+1669283274.350473 [0]     recvUC: thread_cputime 0.000000000
+1669283274.350554 [0] appendable: PARTICIPANT 1103e9d:bb552e58:7fa192ac:1c1 QOS={user_data=0<>,liveliness=0:10000000000,property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},adlink_entity_factory=0}
+1669283274.350570 [0]         gc: gc 0x55d1fdaaa400: not yet, shortsleep
+1669283274.350631 [0] appendable: new_writer(guid 1103e9d:bb552e58:7fa192ac:100c2, (null).DCPSParticipant/ParticipantBuiltinTopicData)
+1669283274.350638 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:100c2 @ 0x55d1fdaacb84) user 1 builtin 1
+1669283274.350678 [0] appendable: WRITER 1103e9d:bb552e58:7fa192ac:100c2 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="ParticipantBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:0,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_writer_data_lifecycle=1,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283274.350710 [0] appendable: match_writer_with_proxy_readers(wr 1103e9d:bb552e58:7fa192ac:100c2) scanning proxy participants tgt=0
+1669283274.350753 [0] appendable: new_writer(guid 1103e9d:bb552e58:7fa192ac:4c2, (null).DCPSSubscription/SubscriptionBuiltinTopicData)
+1669283274.350758 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:4c2 @ 0x55d1fdaad394) user 1 builtin 2
+1669283274.350772 [0] appendable: WRITER 1103e9d:bb552e58:7fa192ac:4c2 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="SubscriptionBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.350777 [0] appendable: match_writer_with_proxy_readers(wr 1103e9d:bb552e58:7fa192ac:4c2) scanning proxy participants tgt=4c7
+1669283274.350780 [0] appendable: new_writer(guid 1103e9d:bb552e58:7fa192ac:3c2, (null).DCPSPublication/PublicationBuiltinTopicData)
+1669283274.350783 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:3c2 @ 0x55d1fdaadbb4) user 1 builtin 3
+1669283274.350794 [0] appendable: WRITER 1103e9d:bb552e58:7fa192ac:3c2 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="PublicationBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.350812 [0] appendable: match_writer_with_proxy_readers(wr 1103e9d:bb552e58:7fa192ac:3c2) scanning proxy participants tgt=3c7
+1669283274.350817 [0] appendable: new_writer(guid 1103e9d:bb552e58:7fa192ac:200c2, (null).DCPSParticipantMessage/ParticipantMessageData)
+1669283274.350825 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:200c2 @ 0x55d1fdaae434) user 1 builtin 4
+1669283274.350838 [0] appendable: WRITER 1103e9d:bb552e58:7fa192ac:200c2 QOS={user_data=0<>,topic_name="DCPSParticipantMessage",type_name="ParticipantMessageData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.350843 [0] appendable: match_writer_with_proxy_readers(wr 1103e9d:bb552e58:7fa192ac:200c2) scanning proxy participants tgt=200c7
+1669283274.350847 [0] appendable: new_writer(guid 1103e9d:bb552e58:7fa192ac:300c3, (null).DCPSTypeLookupRequest/DDS::Builtin::TypeLookup_Request)
+1669283274.350850 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:300c3 @ 0x55d1fdaaecc4) user 1 builtin 5
+1669283274.350861 [0] appendable: WRITER 1103e9d:bb552e58:7fa192ac:300c3 QOS={user_data=0<>,topic_name="DCPSTypeLookupRequest",type_name="DDS::Builtin::TypeLookup_Request",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=1:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.350865 [0] appendable: match_writer_with_proxy_readers(wr 1103e9d:bb552e58:7fa192ac:300c3) scanning proxy participants tgt=300c4
+1669283274.350867 [0] appendable: new_writer(guid 1103e9d:bb552e58:7fa192ac:301c3, (null).DCPSTypeLookupReply/DDS::Builtin::TypeLookup_Reply)
+1669283274.350870 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:301c3 @ 0x55d1fdaaf544) user 1 builtin 6
+1669283274.350880 [0] appendable: WRITER 1103e9d:bb552e58:7fa192ac:301c3 QOS={user_data=0<>,topic_name="DCPSTypeLookupReply",type_name="DDS::Builtin::TypeLookup_Reply",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=1:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(0),adlink_writer_data_lifecycle=1}
+1669283274.350883 [0] appendable: match_writer_with_proxy_readers(wr 1103e9d:bb552e58:7fa192ac:301c3) scanning proxy participants tgt=301c4
+1669283274.350898 [0] appendable: new_reader(guid 1103e9d:bb552e58:7fa192ac:100c7, (null).DCPSParticipant/ParticipantBuiltinTopicData)
+1669283274.350903 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:100c7 @ 0x55d1fdaafad4) user 1 builtin 7
+1669283274.350917 [0] appendable: READER 1103e9d:bb552e58:7fa192ac:100c7 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="ParticipantBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:0,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_writer_data_lifecycle=1,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283274.350948 [0] appendable: match_reader_with_proxy_writers(rd 1103e9d:bb552e58:7fa192ac:100c7) scanning proxy participants tgt=0
+1669283274.350953 [0] appendable: new_reader(guid 1103e9d:bb552e58:7fa192ac:4c7, (null).DCPSSubscription/SubscriptionBuiltinTopicData)
+1669283274.350957 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:4c7 @ 0x55d1fdaafe24) user 1 builtin 8
+1669283274.350973 [0] appendable: READER 1103e9d:bb552e58:7fa192ac:4c7 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="SubscriptionBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283274.350977 [0] appendable: match_reader_with_proxy_writers(rd 1103e9d:bb552e58:7fa192ac:4c7) scanning proxy participants tgt=4c2
+1669283274.350979 [0] appendable: new_reader(guid 1103e9d:bb552e58:7fa192ac:3c7, (null).DCPSPublication/PublicationBuiltinTopicData)
+1669283274.350982 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:3c7 @ 0x55d1fdab0194) user 1 builtin 9
+1669283274.350991 [0] appendable: READER 1103e9d:bb552e58:7fa192ac:3c7 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="PublicationBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283274.350994 [0] appendable: match_reader_with_proxy_writers(rd 1103e9d:bb552e58:7fa192ac:3c7) scanning proxy participants tgt=3c2
+1669283274.350997 [0] appendable: new_reader(guid 1103e9d:bb552e58:7fa192ac:200c7, (null).DCPSParticipantMessage/ParticipantMessageData)
+1669283274.350999 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:200c7 @ 0x55d1fdab0504) user 1 builtin 10
+1669283274.351009 [0] appendable: READER 1103e9d:bb552e58:7fa192ac:200c7 QOS={user_data=0<>,topic_name="DCPSParticipantMessage",type_name="ParticipantMessageData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283274.351012 [0] appendable: match_reader_with_proxy_writers(rd 1103e9d:bb552e58:7fa192ac:200c7) scanning proxy participants tgt=200c2
+1669283274.351014 [0] appendable: new_reader(guid 1103e9d:bb552e58:7fa192ac:300c4, (null).DCPSTypeLookupRequest/DDS::Builtin::TypeLookup_Request)
+1669283274.351017 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:300c4 @ 0x55d1fdab0864) user 1 builtin 11
+1669283274.351026 [0] appendable: READER 1103e9d:bb552e58:7fa192ac:300c4 QOS={user_data=0<>,topic_name="DCPSTypeLookupRequest",type_name="DDS::Builtin::TypeLookup_Request",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=1:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283274.351031 [0] appendable: match_reader_with_proxy_writers(rd 1103e9d:bb552e58:7fa192ac:300c4) scanning proxy participants tgt=300c3
+1669283274.351034 [0] appendable: new_reader(guid 1103e9d:bb552e58:7fa192ac:301c4, (null).DCPSTypeLookupReply/DDS::Builtin::TypeLookup_Reply)
+1669283274.351036 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:301c4 @ 0x55d1fdab0bd4) user 1 builtin 12
+1669283274.351046 [0] appendable: READER 1103e9d:bb552e58:7fa192ac:301c4 QOS={user_data=0<>,topic_name="DCPSTypeLookupReply",type_name="DDS::Builtin::TypeLookup_Reply",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=1:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=1:11000,data_representation=1(0),adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283274.351062 [0] appendable: match_reader_with_proxy_writers(rd 1103e9d:bb552e58:7fa192ac:301c4) scanning proxy participants tgt=301c3
+1669283274.351108 [0] appendable:  => EVERYONE
+1669283274.351148 [0] appendable: spdp_write(1103e9d:bb552e58:7fa192ac:1c1)
+1669283274.351176 [0] appendable: spdp_write(1103e9d:bb552e58:7fa192ac:1c1) - internals: a6d651a11daa/0.11.0/Linux/Linux
+1669283274.351294 [0] appendable: write_sample 1103e9d:bb552e58:7fa192ac:100c2 #1: ST0 DCPSParticipant/ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283274.351437 [0] appendable: non-timed queue now has 1 items
+1669283274.351526 [0]        tev: write_sample 1103e9d:bb552e58:7fa192ac:200c2 #1: ST0 DCPSParticipantMessage/ParticipantMessageData:{1103e9d:bb552e58:7fa192ac:1}:1<0>
+1669283274.351553 [0]        tev: resched pmd(1103e9d:bb552e58:7fa192ac:1c1): 8s
+1669283274.351566 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x55d1fdab12f0 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 424
+1669283274.351661 [0]         gc: gc 0x55d1fdaaa400: deleting
+1669283274.351705 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 424 from udp/172.17.0.5:37816
+1669283274.351796 [0]       recv: INFOTS(1669283274.351259640)
+1669283274.351938 [0]       recv: DATA(1103e9d:bb552e58:7fa192ac:100c2 -> 0:0:0:0 #1)
+1669283274.351966 [0]        tev: nn_xpack_send 424: 0x7f7a5c000b6c:20 0x55d1fdab1a58:36 0x55d1fdab15c4:368 [ udp/239.255.0.1:7400@14 ]
+1669283274.351997 [0]        tev: traffic-xmit (1) 424
+1669283274.352085 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283274.352145 [0] dq.builtin: SPDP ST0 1103e9d:bb552e58:7fa192ac:1c1 (local)
+1669283274.352597 [0] appendable: dds_create_topic_impl (pp 0x55d1fdab1ba0 1103e9d:bb552e58:7fa192ac:1c1 sertype 0x55d1fdaa9cd0 reg?no refc 1 module_test_Msg/module_test::Msg)
+1669283274.352631 [0] appendable: lookup_and_check_ktopic_may_unlock_pp: no such ktopic
+1669283274.352636 [0] appendable: create_and_lock_ktopic: ktp 0x55d1fdab2470
+1669283274.352639 [0] appendable: dds_create_topic_impl: register new sertype 0x55d1fdaa9cd0
+1669283274.352865 [0] appendable: ref ddsi_type local sertype 0x55d1fdaa9cd0 id [MINIMAL b228288b9ae241b828426eb96206] new 0x55d1fdab2e70add dep <[MINIMAL b228288b9ae241b828426eb96206], [INT32 0000000000000000000000000000]>
+1669283274.352900 [0] appendable: ref ddsi_type type-id [INT32 0000000000000000000000000000] new 0x55d1fdab34b0 refc 1
+1669283274.352908 [0] appendable: add dep <[MINIMAL b228288b9ae241b828426eb96206], [STRING8_SMALL 0000000000000000000000000000]>
+1669283274.352915 [0] appendable: ref ddsi_type type-id [STRING8_SMALL 0000000000000000000000000000] new 0x55d1fdab3770 refc 1
+1669283274.352919 [0] appendable: has dep <[MINIMAL b228288b9ae241b828426eb96206], [INT32 0000000000000000000000000000]>
+1669283274.352926 [0] appendable: ref ddsi_type type-id [INT32 0000000000000000000000000000] refc 2
+1669283274.352958 [0] appendable:  refc 1
+1669283274.352973 [0] appendable: type [MINIMAL b228288b9ae241b828426eb96206] resolved
+1669283274.353019 [0] appendable: ref ddsi_type local sertype 0x55d1fdaa9cd0 id [COMPLETE a0b1750d0deca907a2b08b9cd1a2] new 0x55d1fdab3b40add dep <[COMPLETE a0b1750d0deca907a2b08b9cd1a2], [INT32 0000000000000000000000000000]>
+1669283274.353023 [0] appendable: ref ddsi_type type-id [INT32 0000000000000000000000000000] refc 3
+1669283274.353028 [0] appendable: add dep <[COMPLETE a0b1750d0deca907a2b08b9cd1a2], [STRING8_SMALL 0000000000000000000000000000]>
+1669283274.353069 [0] appendable: ref ddsi_type type-id [STRING8_SMALL 0000000000000000000000000000] refc 2
+1669283274.353081 [0] appendable: has dep <[COMPLETE a0b1750d0deca907a2b08b9cd1a2], [INT32 0000000000000000000000000000]>
+1669283274.353085 [0] appendable: ref ddsi_type type-id [INT32 0000000000000000000000000000] refc 4
+1669283274.353105 [0] appendable:  refc 1
+1669283274.353109 [0] appendable: type [COMPLETE a0b1750d0deca907a2b08b9cd1a2] resolved
+1669283274.353145 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:14d @ 0x55d1fdab27d4) user 2 builtin 12
+1669283274.353166 [0] appendable: TOPIC 1103e9d:bb552e58:7fa192ac:14d QOS={topic_name="module_test_Msg",type_name="module_test::Msg",durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,transport_priority=0,data_representation=1(2),type_information=[MINIMAL b228288b9ae241b828426eb96206]/[COMPLETE a0b1750d0deca907a2b08b9cd1a2]}
+1669283274.353370 [0] appendable: ref ddsi_type local sertype 0x55d1fdaa9cd0 id [MINIMAL b228288b9ae241b828426eb96206] refc 2
+1669283274.353475 [0] appendable: type [MINIMAL b228288b9ae241b828426eb96206] resolved
+1669283274.353542 [0] appendable: ref ddsi_type local sertype 0x55d1fdaa9cd0 id [COMPLETE a0b1750d0deca907a2b08b9cd1a2] refc 2
+1669283274.353565 [0] appendable: type [COMPLETE a0b1750d0deca907a2b08b9cd1a2] resolved
+1669283274.353608 [0] appendable:  topic-definition 0x0x55d1fdab4d40: key 0xda5fb0bc957a79fe03dacc9f9d4922e9 QOS={topic_name="module_test_Msg",type_name="module_test::Msg",durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,transport_priority=0,data_representation=1(2),type_information=[MINIMAL b228288b9ae241b828426eb96206]/[COMPLETE a0b1750d0deca907a2b08b9cd1a2]}
+1669283274.353635 [0] appendable:  => EVERYONE
+1669283274.353811 [0] appendable: dds_create_topic_impl: new topic 720511717
+1669283274.353996 [0]         gc: gc 0x55d1fdab54c0: deleting
+1669283274.354975 [0] appendable: new_reader(guid 1103e9d:bb552e58:7fa192ac:204, (default).module_test_Msg/module_test::Msg)
+1669283274.355019 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 568 from udp/172.17.0.2:49475
+1669283274.355039 [0] appendable: ddsi_ref_participant(1103e9d:bb552e58:7fa192ac:1c1 @ 0x55d1fdaa9de0 <- 1103e9d:bb552e58:7fa192ac:204 @ 0x55d1fdab6464) user 3 builtin 12
+1669283274.355114 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.355220 [0] appendable: ref ddsi_type local sertype 0x55d1fdaa9cd0 id [MINIMAL b228288b9ae241b828426eb96206] refc 3
+1669283274.355221 [0]     recvUC: HEARTBEAT(#1:1..1 110aac1:5eae4d7:3b38280b:3c2? -> 1103e9d:bb552e58:7fa192ac:0)
+1669283274.355306 [0]     recvUC: HEARTBEAT(#1:1..0 110aac1:5eae4d7:3b38280b:4c2? -> 1103e9d:bb552e58:7fa192ac:0)
+1669283274.355333 [0]     recvUC: HEARTBEAT(#1:2..2 110aac1:5eae4d7:3b38280b:200c2? -> 1103e9d:bb552e58:7fa192ac:0)
+1669283274.355367 [0]     recvUC: HEARTBEAT(#1:1..0 110aac1:5eae4d7:3b38280b:300c3? -> 1103e9d:bb552e58:7fa192ac:0)
+1669283274.355307 [0] appendable: ref ddsi_type local sertype 0x55d1fdaa9cd0 id [COMPLETE a0b1750d0deca907a2b08b9cd1a2] refc 3
+1669283274.355374 [0]     recvUC: INFOTS(1669283263.276873519)
+1669283274.355427 [0] appendable: READER 1103e9d:bb552e58:7fa192ac:204 QOS={user_data=0<>,topic_name="module_test_Msg",type_name="module_test::Msg",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={""},time_based_filter=0,transport_priority=0,type_consistency_enforcement=0:00010,data_representation=1(2),adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283274.355449 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 1103e9d:bb552e58:7fa192ac:100c7 #1)
+1669283274.355464 [0] appendable:  => EVERYONE
+1669283274.355503 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 68 from udp/172.17.0.2:49475
+1669283274.355529 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.355555 [0]     recvUC: HEARTBEAT(#1:1..0 110aac1:5eae4d7:3b38280b:301c3? -> 1103e9d:bb552e58:7fa192ac:0)
+1669283274.355505 [0] appendable: match_reader_with_proxy_writers(rd 1103e9d:bb552e58:7fa192ac:204) scanning all pwrs of topic module_test_Msg
+1669283274.355643 [0] appendable: match_reader_with_writers(rd 1103e9d:bb552e58:7fa192ac:204) scanning all wrs of topic module_test_Msg
+1669283274.355505 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283274.355730 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 bes fc3f NEW (0x00000000-0x0000002c-0x00000000-0x00000000-0x00000000 cadce22b2873/0.11.0/Linux/Linux) (data udp/239.255.0.1:7401@14 udp/172.17.0.2:50032@14 meta udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14) QOS={property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{}}
+1669283274.355781 [0] appendable: write_sample 1103e9d:bb552e58:7fa192ac:4c2 #1: ST0 DCPSSubscription/SubscriptionBuiltinTopicData:{topic_name="module_test_Msg",type_name="module_test::Msg",durability_service=0:0:1:-1:-1:-1,reliability=0:100000000,lifespan=9223372036854775807,type_consistency_enforcement=0:00010,data_representation=1(2),type_information=[MINIMAL b228288b9ae241b828426eb96206]/[COMPLETE a0b1750d0deca907a2b08b9cd1a2],protocol_version=2:1,vendorid=1:16,endpoint_guid={1103e9d:bb552e58:7fa192ac:204},adlink_entity_factory=1}
+1669283274.355794 [0] dq.builtin: lease_new(tdur 10000000000 guid 110aac1:5eae4d7:3b38280b:1c1) @ 0x7f7a58001390
+1669283274.355839 [0] dq.builtin: lease_new(tdur 10000000000 guid 110aac1:5eae4d7:3b38280b:1c1) @ 0x7f7a58001410
+1669283274.355914 [0] dq.builtin: match_proxy_reader_with_writers(prd 110aac1:5eae4d7:3b38280b:100c7) scanning participants tgt=0
+1669283274.355959 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110aac1:5eae4d7:3b38280b:3c2) scanning participants tgt=3c7
+1669283274.356002 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:3c7 init_acknack_count = 1
+1669283274.356024 [0] dq.builtin:   reader_add_connection(pwr 110aac1:5eae4d7:3b38280b:3c2 rd 1103e9d:bb552e58:7fa192ac:3c7)
+1669283274.356068 [0] dq.builtin:   proxy_writer_add_connection(pwr 110aac1:5eae4d7:3b38280b:3c2 rd 1103e9d:bb552e58:7fa192ac:3c7) - out-of-sync
+1669283274.356104 [0] dq.builtin: match_proxy_reader_with_writers(prd 110aac1:5eae4d7:3b38280b:3c7) scanning participants tgt=3c2
+1669283274.356112 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:3c2 prd 110aac1:5eae4d7:3b38280b:3c7)
+1669283274.356118 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:3c2 prd 110aac1:5eae4d7:3b38280b:3c7) - ack seq 0
+1669283274.356165 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283274.356204 [0] dq.builtin: reduced nlocs=2
+1669283274.356213 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283274.356222 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283274.356241 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283274.356248 [0] dq.builtin:                                                                   a
+1669283274.356254 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283274.356260 [0] dq.builtin:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283274.356262 [0] dq.builtin:   best = 0
+1669283274.356277 [0] dq.builtin:   simple udp/172.17.0.2:50032@14
+1669283274.356304 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:3c2): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283274.356338 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110aac1:5eae4d7:3b38280b:4c2) scanning participants tgt=4c7
+1669283274.356361 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:4c7 init_acknack_count = 1
+1669283274.356367 [0] dq.builtin:   reader_add_connection(pwr 110aac1:5eae4d7:3b38280b:4c2 rd 1103e9d:bb552e58:7fa192ac:4c7)
+1669283274.356373 [0] dq.builtin:   proxy_writer_add_connection(pwr 110aac1:5eae4d7:3b38280b:4c2 rd 1103e9d:bb552e58:7fa192ac:4c7) - out-of-sync
+1669283274.356386 [0] dq.builtin: match_proxy_reader_with_writers(prd 110aac1:5eae4d7:3b38280b:4c7) scanning participants tgt=4c2
+1669283274.356391 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:4c2 prd 110aac1:5eae4d7:3b38280b:4c7)
+1669283274.356396 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:4c2 prd 110aac1:5eae4d7:3b38280b:4c7) - ack seq 1
+1669283274.356403 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283274.356422 [0] dq.builtin: reduced nlocs=2
+1669283274.356429 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283274.356435 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283274.356439 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283274.356444 [0] dq.builtin:                                                                   a
+1669283274.356448 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283274.356478 [0] dq.builtin:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283274.356482 [0] dq.builtin:   best = 0
+1669283274.356486 [0] dq.builtin:   simple udp/172.17.0.2:50032@14
+1669283274.356492 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:4c2): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283274.356501 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110aac1:5eae4d7:3b38280b:200c2) scanning participants tgt=200c7
+1669283274.356504 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:200c7 init_acknack_count = 1
+1669283274.356507 [0] dq.builtin:   reader_add_connection(pwr 110aac1:5eae4d7:3b38280b:200c2 rd 1103e9d:bb552e58:7fa192ac:200c7)
+1669283274.356510 [0] dq.builtin:   proxy_writer_add_connection(pwr 110aac1:5eae4d7:3b38280b:200c2 rd 1103e9d:bb552e58:7fa192ac:200c7) - out-of-sync
+1669283274.356516 [0] dq.builtin: match_proxy_reader_with_writers(prd 110aac1:5eae4d7:3b38280b:200c7) scanning participants tgt=200c2
+1669283274.356534 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:200c2 prd 110aac1:5eae4d7:3b38280b:200c7)
+1669283274.356539 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:200c2 prd 110aac1:5eae4d7:3b38280b:200c7) - ack seq 1
+1669283274.356544 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283274.356547 [0] dq.builtin: reduced nlocs=2
+1669283274.356550 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283274.356553 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283274.356555 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283274.356558 [0] dq.builtin:                                                                   a
+1669283274.356561 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283274.356564 [0] dq.builtin:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283274.356565 [0] dq.builtin:   best = 0
+1669283274.356568 [0] dq.builtin:   simple udp/172.17.0.2:50032@14
+1669283274.356572 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:200c2): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283274.356584 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110aac1:5eae4d7:3b38280b:300c3) scanning participants tgt=300c4
+1669283274.356587 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:300c4 init_acknack_count = 1
+1669283274.356589 [0] dq.builtin:   reader_add_connection(pwr 110aac1:5eae4d7:3b38280b:300c3 rd 1103e9d:bb552e58:7fa192ac:300c4)
+1669283274.356593 [0] dq.builtin:   proxy_writer_add_connection(pwr 110aac1:5eae4d7:3b38280b:300c3 rd 1103e9d:bb552e58:7fa192ac:300c4) - out-of-sync
+1669283274.356600 [0] dq.builtin: match_proxy_reader_with_writers(prd 110aac1:5eae4d7:3b38280b:300c4) scanning participants tgt=300c3
+1669283274.356602 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:300c3 prd 110aac1:5eae4d7:3b38280b:300c4)
+1669283274.356605 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:300c3 prd 110aac1:5eae4d7:3b38280b:300c4) - ack seq 0
+1669283274.356608 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283274.356610 [0] dq.builtin: reduced nlocs=2
+1669283274.356613 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283274.356615 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283274.356617 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283274.356620 [0] dq.builtin:                                                                   a
+1669283274.356622 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283274.356625 [0] dq.builtin:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283274.356627 [0] dq.builtin:   best = 0
+1669283274.356629 [0] dq.builtin:   simple udp/172.17.0.2:50032@14
+1669283274.356632 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:300c3): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283274.356640 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110aac1:5eae4d7:3b38280b:301c3) scanning participants tgt=301c4
+1669283274.356660 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:301c4 init_acknack_count = 1
+1669283274.356666 [0] dq.builtin:   reader_add_connection(pwr 110aac1:5eae4d7:3b38280b:301c3 rd 1103e9d:bb552e58:7fa192ac:301c4)
+1669283274.356669 [0] dq.builtin:   proxy_writer_add_connection(pwr 110aac1:5eae4d7:3b38280b:301c3 rd 1103e9d:bb552e58:7fa192ac:301c4) - out-of-sync
+1669283274.356680 [0] dq.builtin: match_proxy_reader_with_writers(prd 110aac1:5eae4d7:3b38280b:301c4) scanning participants tgt=301c3
+1669283274.356684 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:301c3 prd 110aac1:5eae4d7:3b38280b:301c4)
+1669283274.356688 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:301c3 prd 110aac1:5eae4d7:3b38280b:301c4) - ack seq 0
+1669283274.356695 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283274.356699 [0] dq.builtin: reduced nlocs=2
+1669283274.356703 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283274.356705 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283274.356708 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283274.356711 [0] dq.builtin:                                                                   a
+1669283274.356713 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283274.356716 [0] dq.builtin:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283274.356718 [0] dq.builtin:   best = 0
+1669283274.356720 [0] dq.builtin:   simple udp/172.17.0.2:50032@14
+1669283274.356723 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:301c3): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283274.356744 [0] dq.builtin:  => EVERYONE
+1669283274.356762 [0] dq.builtin: lease_register(l 0x7f7a58001410 guid 110aac1:5eae4d7:3b38280b:1c1)
+1669283274.356802 [0] dq.builtin: directed SPDP packet -> not responding
+1669283274.356814 [0]         gc: gc 0x7f7a580057e0: not yet, shortsleep
+1669283274.357468 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:3c2 unicasting to prd 110aac1:5eae4d7:3b38280b:3c7 (rel-prd 1 seq-eq-max 0 seq 0 maxseq 0)
+1669283274.357523 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:3c2) sent, resched in 0.1 s (min-ack 0!, avail-seq 0, xmit 0)
+1669283274.357529 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x55d1fdab12f0 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283274.357536 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:4c2 unicasting to prd 110aac1:5eae4d7:3b38280b:4c7 (rel-prd 1 seq-eq-max 0 seq 1 maxseq 1)
+1669283274.357539 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:4c2) sent, resched in 0.1 s (min-ack 1!, avail-seq 1, xmit 1)
+1669283274.357542 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a5c001e80 0(control): niov 2 sz 68 => now niov 3 sz 100
+1669283274.357764 [0]        tev: nn_xpack_send 100: 0x7f7a5c000b6c:20 0x55d1fdab1a48:48 0x7f7a5c001f78:32 [ udp/172.17.0.2:50032@14 ]
+1669283274.357796 [0]        tev: traffic-xmit (1) 100
+1669283274.357804 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:200c2 unicasting to prd 110aac1:5eae4d7:3b38280b:200c7 (rel-prd 1 seq-eq-max 0 seq 1 maxseq 1)
+1669283274.357809 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) sent, resched in 0.1 s (min-ack 1!, avail-seq 1, xmit 1)
+1669283274.357812 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x55d1fdab12f0 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283274.357816 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:300c3 unicasting to prd 110aac1:5eae4d7:3b38280b:300c4 (rel-prd 1 seq-eq-max 0 seq 0 maxseq 0)
+1669283274.357819 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:300c3) sent, resched in 0.1 s (min-ack 0!, avail-seq 0, xmit 0)
+1669283274.357821 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a5c001e80 0(control): niov 2 sz 68 => now niov 3 sz 100
+1669283274.357854 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:301c3 unicasting to prd 110aac1:5eae4d7:3b38280b:301c4 (rel-prd 1 seq-eq-max 0 seq 0 maxseq 0)
+1669283274.357860 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:301c3) sent, resched in 0.1 s (min-ack 0!, avail-seq 0, xmit 0)
+1669283274.357863 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a5c002000 0(control): niov 3 sz 100 => now niov 4 sz 132
+1669283274.357896 [0]        tev: nn_xpack_send 132: 0x7f7a5c000b6c:20 0x55d1fdab1a48:48 0x7f7a5c001f78:32 0x7f7a5c0020f8:32 [ udp/172.17.0.2:50032@14 ]
+1669283274.357901 [0]        tev: traffic-xmit (1) 132
+1669283274.357905 [0]         gc: gc 0x7f7a580057e0: deleting
+1669283274.358232 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 128 from udp/172.17.0.2:49475
+1669283274.358243 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.358292 [0]     recvUC: ACKNACK(F#1:1/0: L(:1c1 8569.270633) 110aac1:5eae4d7:3b38280b:3c7 -> 1103e9d:bb552e58:7fa192ac:3c2 setting-has-replied-to-hb happy-now)
+1669283274.358366 [0]     recvUC: ACKNACK(F#1:1/1:1 110aac1:5eae4d7:3b38280b:4c7 -> 1103e9d:bb552e58:7fa192ac:4c2 complying RX1non-timed queue now has 1 items
+1669283274.358398 [0]     recvUC:  rexmit#1 maxseq:1<1<=1defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:4c2 -> 110aac1:5eae4d7:3b38280b:4c7 - queue for transmit
+1669283274.358403 [0]     recvUC: )
+1669283274.358408 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(rexmit(1103e9d:bb552e58:7fa192ac:4c2:#1/1)): niov 0 sz 0 => now niov 3 sz 364
+1669283274.358427 [0]     recvUC: ACKNACK(F#1:1/1:1 110aac1:5eae4d7:3b38280b:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 complying RX1non-timed queue now has 1 items
+1669283274.358451 [0]     recvUC:  rexmit#1 maxseq:1<1<=1defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:200c2 -> 110aac1:5eae4d7:3b38280b:200c7 - queue for transmit
+1669283274.358455 [0]     recvUC: non-timed queue now has 1 items
+1669283274.358456 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(rexmit(1103e9d:bb552e58:7fa192ac:200c2:#1/1)): niov 3 sz 364 => now niov 5 sz 428
+1669283274.358458 [0]     recvUC: )
+1669283274.358480 [0]     recvUC: send_deferred_heartbeat: ccf6f65b09fdc6d1 -> 98e2d97c9eceb1e9 - queue for transmit
+1669283274.358484 [0]     recvUC: non-timed queue now has 1 items
+1669283274.358463 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000d30 0(control): niov 5 sz 428 => now niov 6 sz 460
+1669283274.358496 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 92 from udp/172.17.0.2:49475
+1669283274.358501 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.358501 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c0010d0 0(control): niov 6 sz 460 => now niov 7 sz 492
+1669283274.358521 [0]     recvUC: ACKNACK(F#1:1/0: L(:1c1 8569.270892) 110aac1:5eae4d7:3b38280b:300c4 -> 1103e9d:bb552e58:7fa192ac:300c3 setting-has-replied-to-hb happy-now)
+1669283274.358561 [0]     recvUC: ACKNACK(F#1:1/0: 110aac1:5eae4d7:3b38280b:301c4 -> 1103e9d:bb552e58:7fa192ac:301c3 setting-has-replied-to-hb happy-now)
+1669283274.358597 [0]        tev: nn_xpack_send 492: 0x7f7a5c000b6c:20 0x7f7a4c000c48:52 0x55d1fdab73f4:292 0x7f7a4c000fa8:36 0x7f7a5c000c9c:28 0x7f7a4c000e28:32 0x7f7a4c0011c8:32 [ udp/172.17.0.2:50032@14 ]
+1669283274.358602 [0]        tev: traffic-xmit (1) 492
+1669283274.358984 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 92 from udp/172.17.0.2:49475
+1669283274.359026 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.359044 [0]     recvUC: ACKNACK(F#2:2/0: L(:1c1 8569.271413) 110aac1:5eae4d7:3b38280b:4c7 -> 1103e9d:bb552e58:7fa192ac:4c2 setting-has-replied-to-hb happy-now)
+1669283274.359053 [0]     recvUC: ACKNACK(F#2:2/0: 110aac1:5eae4d7:3b38280b:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 setting-has-replied-to-hb happy-now)
+1669283274.366172 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:3c7 -> 110aac1:5eae4d7:3b38280b:3c2: #0:1/0:
+1669283274.366224 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283274.366312 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283274.366316 [0]        tev: traffic-xmit (1) 64
+1669283274.366456 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:4c7 -> 110aac1:5eae4d7:3b38280b:4c2: #0:1/0:
+1669283274.366482 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283274.366522 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283274.366525 [0]        tev: traffic-xmit (1) 64
+1669283274.366531 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: #0:1/0:
+1669283274.366533 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283274.366540 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283274.366542 [0]        tev: traffic-xmit (1) 64
+1669283274.366666 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:300c4 -> 110aac1:5eae4d7:3b38280b:300c3: #0:1/0:
+1669283274.366680 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283274.366686 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:301c4 -> 110aac1:5eae4d7:3b38280b:301c3: #0:1/0:
+1669283274.366689 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 2 sz 64 => now niov 3 sz 92
+1669283274.366711 [0]        tev: nn_xpack_send 92: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 0x7f7a4c000fa8:28 [ udp/172.17.0.2:50032@14 ]
+1669283274.366732 [0]        tev: traffic-xmit (1) 92
+1669283274.366863 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 100 from udp/172.17.0.2:49475
+1669283274.366873 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.366923 [0]     recvUC: HEARTBEAT(#2:1..1  L(:1c1 8569.279263)110aac1:5eae4d7:3b38280b:3c2 -> 1103e9d:bb552e58:7fa192ac:3c7: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:3c7 #1) 1103e9d:bb552e58:7fa192ac:3c7@0)
+1669283274.366940 [0]     recvUC: HEARTBEAT(#2:1..0 110aac1:5eae4d7:3b38280b:4c2 -> 1103e9d:bb552e58:7fa192ac:4c7: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:4c7 #0) msr_in_sync(1103e9d:bb552e58:7fa192ac:4c7 out-of-sync to tlcatchup) 1103e9d:bb552e58:7fa192ac:4c7@0(sync))
+1669283274.366943 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:3c7 -> 110aac1:5eae4d7:3b38280b:3c2: F#1:1/1:1
+1669283274.366947 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 68 from udp/172.17.0.2:49475
+1669283274.366951 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:3c7 -> pwr 110aac1:5eae4d7:3b38280b:3c2)
+1669283274.366975 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283274.366955 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.366982 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:4c7 -> 110aac1:5eae4d7:3b38280b:4c2: F#1:1/0:
+1669283274.366987 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:4c7 -> pwr 110aac1:5eae4d7:3b38280b:4c2)
+1669283274.366990 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 2 sz 68 => now niov 3 sz 96
+1669283274.367007 [0]     recvUC: HEARTBEAT(#2:2..2  L(:1c1 8569.279347)110aac1:5eae4d7:3b38280b:200c2 -> 1103e9d:bb552e58:7fa192ac:200c7: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:200c7 #2) 1103e9d:bb552e58:7fa192ac:200c7@1)
+1669283274.367017 [0]        tev: nn_xpack_send 96: 0x7f7a5c000b6c:20 0x7f7a4c000c48:48 0x7f7a4c000fa8:28 [ udp/172.17.0.2:50032@14 ]
+1669283274.367021 [0]        tev: traffic-xmit (1) 96
+1669283274.367024 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 68 from udp/172.17.0.2:49475
+1669283274.367027 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: F#1:2/1:1
+1669283274.367030 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.367031 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110aac1:5eae4d7:3b38280b:200c2)
+1669283274.367106 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283274.367058 [0]     recvUC: HEARTBEAT(#2:1..0  L(:1c1 8569.279422)110aac1:5eae4d7:3b38280b:300c3 -> 1103e9d:bb552e58:7fa192ac:300c4: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:300c4 #0) msr_in_sync(1103e9d:bb552e58:7fa192ac:300c4 out-of-sync to tlcatchup) 1103e9d:bb552e58:7fa192ac:300c4@0(sync))
+1669283274.367114 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:300c4 -> 110aac1:5eae4d7:3b38280b:300c3: F#1:1/0:
+1669283274.367146 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:300c4 -> pwr 110aac1:5eae4d7:3b38280b:300c3)
+1669283274.367146 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 68 from udp/172.17.0.2:49475
+1669283274.367150 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 2 sz 68 => now niov 3 sz 96
+1669283274.367169 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.367217 [0]     recvUC: HEARTBEAT(#2:1..0  L(:1c1 8569.279559)110aac1:5eae4d7:3b38280b:301c3 -> 1103e9d:bb552e58:7fa192ac:301c4: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:301c4 #0) msr_in_sync(1103e9d:bb552e58:7fa192ac:301c4 out-of-sync to tlcatchup) 1103e9d:bb552e58:7fa192ac:301c4@0(sync))
+1669283274.367221 [0]        tev: nn_xpack_send 96: 0x7f7a5c000b6c:20 0x7f7a4c000c48:48 0x7f7a4c000fa8:28 [ udp/172.17.0.2:50032@14 ]
+1669283274.367296 [0]        tev: traffic-xmit (1) 96
+1669283274.367268 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 324 from udp/172.17.0.2:49475
+1669283274.367304 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:301c4 -> 110aac1:5eae4d7:3b38280b:301c3: F#1:1/0:
+1669283274.367307 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:301c4 -> pwr 110aac1:5eae4d7:3b38280b:301c3)
+1669283274.367311 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283274.367307 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.367334 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283274.367350 [0]        tev: traffic-xmit (1) 64
+1669283274.367334 [0]     recvUC: INFOTS(1669283263.279898316)
+1669283274.367380 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:3c2 -> 1103e9d:bb552e58:7fa192ac:3c7 #1 L(:1c1 8569.279698) msr_in_sync(1103e9d:bb552e58:7fa192ac:3c7 out-of-sync to tlcatchup))
+1669283274.367401 [0]     recvUC: HEARTBEAT(#3:1..1 110aac1:5eae4d7:3b38280b:3c2 -> 1103e9d:bb552e58:7fa192ac:3c7: 1103e9d:bb552e58:7fa192ac:3c7@1(sync))
+1669283274.367408 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 100 from udp/172.17.0.2:49475
+1669283274.367412 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.367414 [0]     recvUC: INFOTS(1669283271.277721693)
+1669283274.367417 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:3c7 -> 110aac1:5eae4d7:3b38280b:3c2: F#2:2/0:
+1669283274.367438 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:3c2 #1: ST0 DCPSPublication/PublicationBuiltinTopicData:{topic_name="module_test_Msg",type_name="module_test::Msg",data_representation=1(2),type_information=[MINIMAL 02e2a8cd8e8c6a3d5858e984b05a]/[COMPLETE 82060bf133aeb1cef30b8f914840],protocol_version=2:1,vendorid=1:16,endpoint_guid={110aac1:5eae4d7:3b38280b:203},adlink_entity_factory=1}
+1669283274.367420 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:200c2 -> 1103e9d:bb552e58:7fa192ac:200c7 #2 L(:1c1 8569.279803) msr_in_sync(1103e9d:bb552e58:7fa192ac:200c7 out-of-sync to tlcatchup))
+1669283274.367442 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:3c7 -> pwr 110aac1:5eae4d7:3b38280b:3c2)
+1669283274.367476 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283274.367495 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 68 from udp/172.17.0.2:49475
+1669283274.367502 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283274.367504 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283274.367528 [0]        tev: traffic-xmit (1) 64
+1669283274.367509 [0]     recvUC: HEARTBEAT(#3:2..2  L(:1c1 8569.279893)110aac1:5eae4d7:3b38280b:200c2 -> 1103e9d:bb552e58:7fa192ac:200c7: 1103e9d:bb552e58:7fa192ac:200c7@2(sync))
+1669283274.367536 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: F#2:3/0:
+1669283274.367545 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110aac1:5eae4d7:3b38280b:200c2)
+1669283274.367549 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283274.367572 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283274.367590 [0]        tev: traffic-xmit (1) 64
+1669283274.367602 [0] dq.builtin: SEDP ST0 110aac1:5eae4d7:3b38280b:203 reliable volatile writer unnamed: (default).module_test_Msg/module_test::Msg p(open) NEW (as udp/239.255.0.1:7401@14 udp/172.17.0.2:50032@14 ssm=0) QOS={user_data=0<>,topic_name="module_test_Msg",type_name="module_test::Msg",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,data_representation=1(2),type_information=[MINIMAL 02e2a8cd8e8c6a3d5858e984b05a]/[COMPLETE 82060bf133aeb1cef30b8f914840],adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1669283274.367627 [0] dq.builtin: ref ddsi_type proxy id [MINIMAL 02e2a8cd8e8c6a3d5858e984b05a] new 0x7f7a580060f0 refc 1
+1669283274.367644 [0] dq.builtin: type [MINIMAL 02e2a8cd8e8c6a3d5858e984b05a] add ep 110aac1:5eae4d7:3b38280b:203
+1669283274.367650 [0] dq.builtin: ref ddsi_type proxy id [COMPLETE 82060bf133aeb1cef30b8f914840] new 0x7f7a58006520 refc 1
+1669283274.367653 [0] dq.builtin: type [COMPLETE 82060bf133aeb1cef30b8f914840] add ep 110aac1:5eae4d7:3b38280b:203
+1669283274.367668 [0] dq.builtin:  => EVERYONE
+1669283274.367674 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110aac1:5eae4d7:3b38280b:203) scanning all rds of topic module_test_Msg
+1669283274.367718 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:200c2 #2: ST0 DCPSParticipantMessage/ParticipantMessageData:{110aac1:5eae4d7:3b38280b:1}:1<0>
+1669283274.367723 [0] dq.builtin:  PMD ST0 pp 110aac1:5eae4d7:3b38280b kind 1 data 1
+1669283274.451786 [0]        tev: non-timed queue now has 1 items
+1669283274.451862 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 0:0:0:100c7 (resched 8s)
+1669283274.451874 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 424
+1669283274.451995 [0]        tev: nn_xpack_send 424: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x55d1fdab15c4:368 [ udp/239.255.0.1:7400@14 ]
+1669283274.452023 [0]        tev: traffic-xmit (1) 424
+1669283274.452078 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 424 from udp/172.17.0.5:37816
+1669283274.452100 [0]       recv: INFOTS(1669283274.351259640)
+1669283274.452146 [0]       recv: DATA(1103e9d:bb552e58:7fa192ac:100c2 -> 0:0:0:0 #1)
+1669283274.452215 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283274.452255 [0] dq.builtin: SPDP ST0 1103e9d:bb552e58:7fa192ac:1c1 (local)
+1669283274.457736 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:3c2) suppressed, resched in inf s (min-ack 0, avail-seq 0, xmit 0)
+1669283274.457817 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:4c2) suppressed, resched in inf s (min-ack 1, avail-seq 1, xmit 1)
+1669283274.457824 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) suppressed, resched in inf s (min-ack 1, avail-seq 1, xmit 1)
+1669283274.457827 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:300c3) suppressed, resched in inf s (min-ack 0, avail-seq 0, xmit 0)
+1669283274.457927 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:301c3) suppressed, resched in inf s (min-ack 0, avail-seq 0, xmit 0)
+1669283275.354956 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 440 from udp/172.17.0.2:49475
+1669283275.354999 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283275.355004 [0]     recvUC: INFOTS(1669283263.276873519)
+1669283275.355033 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 1103e9d:bb552e58:7fa192ac:100c7 #1)
+1669283275.355068 [0]     recvUC: thread_cputime 0.000000000
+1669283275.355100 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283275.355140 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8570.269651)
+1669283275.355146 [0] dq.builtin: thread_cputime 0.000000000
+1669283276.355335 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 440 from udp/172.17.0.2:49475
+1669283276.355393 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283276.355402 [0]     recvUC: INFOTS(1669283263.276873519)
+1669283276.355441 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 1103e9d:bb552e58:7fa192ac:100c7 #1)
+1669283276.355450 [0]     recvUC: thread_cputime 0.000000000
+1669283276.355551 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283276.355613 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8571.270122)
+1669283276.355624 [0] dq.builtin: thread_cputime 0.000000000
+1669283277.355744 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 440 from udp/172.17.0.2:49475
+1669283277.355819 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283277.355831 [0]     recvUC: INFOTS(1669283263.276873519)
+1669283277.355880 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 1103e9d:bb552e58:7fa192ac:100c7 #1)
+1669283277.355893 [0]     recvUC: thread_cputime 0.000000000
+1669283277.356015 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283277.356120 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8572.270627)
+1669283277.356134 [0] dq.builtin: thread_cputime 0.000000000
+1669283279.275924 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 116 from udp/172.17.0.2:49475
+1669283279.275980 [0]     recvUC: INFOTS(1669283279.275715988)
+1669283279.275997 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0 #3 L(:1c1 8574.190491))
+1669283279.276022 [0]     recvUC: HEARTBEAT(#4:3..3 110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:200c7@3(sync))
+1669283279.276045 [0]     recvUC: thread_cputime 0.000000000
+1669283279.276100 [0]        tev: thread_cputime 0.000000000
+1669283279.276131 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:200c2 #3: ST0 DCPSParticipantMessage/ParticipantMessageData:{110aac1:5eae4d7:3b38280b:1}:1<0>
+1669283279.276197 [0] dq.builtin:  PMD ST0 pp 110aac1:5eae4d7:3b38280b kind 1 data 1
+1669283279.276206 [0] dq.builtin: thread_cputime 0.000000000
+1669283279.276166 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: F#3:4/0:
+1669283279.276326 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110aac1:5eae4d7:3b38280b:200c2)
+1669283279.276334 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283279.276385 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283279.276389 [0]        tev: traffic-xmit (1) 64
+1669283279.375978 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 424 from udp/172.17.0.2:49475
+1669283279.376010 [0]       recv: INFOTS(1669283263.276873519)
+1669283279.376061 [0]       recv: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 0:0:0:0 #1)
+1669283279.376085 [0]       recv: thread_cputime 0.000000000
+1669283279.376172 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283279.376203 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8574.290712)
+1669283282.349609 [0]        tev: thread_cputime 0.000000000
+1669283282.349765 [0]        tev: write_sample 1103e9d:bb552e58:7fa192ac:200c2 #2: ST0 DCPSParticipantMessage/ParticipantMessageData:{1103e9d:bb552e58:7fa192ac:1}:1<0>
+1669283282.349804 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(1103e9d:bb552e58:7fa192ac:200c2:#2/1)): niov 0 sz 0 => now niov 3 sz 84
+1669283282.349811 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:200c2 multicasting (rel-prd 1 seq-eq-max 1 seq 2 maxseq 1)
+1669283282.349823 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) piggybacked, resched in 0.1 s (min-ack 1, avail-seq 2, xmit 1)
+1669283282.349829 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 3 sz 84 => now niov 4 sz 116
+1669283282.349946 [0]        tev: nn_xpack_send 116: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x7f7a5c00226c:28 0x7f7a4c000fa8:32 [ udp/172.17.0.2:50032@14 ]
+1669283282.349956 [0]        tev: traffic-xmit (1) 116
+1669283282.349967 [0]        tev: resched pmd(1103e9d:bb552e58:7fa192ac:1c1): 8s
+1669283282.350791 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 64 from udp/172.17.0.2:49475
+1669283282.350822 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283282.350863 [0]     recvUC: ACKNACK(F#3:3/0: L(:1c1 8577.265331) 110aac1:5eae4d7:3b38280b:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 ACK1 RM0)
+1669283282.350875 [0]     recvUC: thread_cputime 0.000000000
+1669283282.449896 [0]        tev: non-timed queue now has 1 items
+1669283282.449960 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 0:0:0:100c7 (resched 8s)
+1669283282.449969 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) suppressed, resched in inf s (min-ack 2, avail-seq 2, xmit 2)
+1669283282.449973 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 424
+1669283282.450074 [0]        tev: nn_xpack_send 424: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x55d1fdab15c4:368 [ udp/239.255.0.1:7400@14 ]
+1669283282.450079 [0]        tev: traffic-xmit (1) 424
+1669283282.450185 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 424 from udp/172.17.0.5:37816
+1669283282.450225 [0]       recv: INFOTS(1669283274.351259640)
+1669283282.450272 [0]       recv: DATA(1103e9d:bb552e58:7fa192ac:100c2 -> 0:0:0:0 #1)
+1669283282.450281 [0]       recv: thread_cputime 0.000000000
+1669283282.450377 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283282.450397 [0] dq.builtin: SPDP ST0 1103e9d:bb552e58:7fa192ac:1c1 (local)
+1669283282.450416 [0] dq.builtin: thread_cputime 0.000000000
+1669283284.356075 [0]         gc: thread_cputime 0.000000000
+1669283287.276462 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 116 from udp/172.17.0.2:49475
+1669283287.276533 [0]     recvUC: INFOTS(1669283287.276119284)
+1669283287.276559 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0 #4 L(:1c1 8582.191041))
+1669283287.276603 [0]     recvUC: HEARTBEAT(#5:4..4 110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:200c7@4(sync))
+1669283287.276643 [0]     recvUC: thread_cputime 0.000000000
+1669283287.276718 [0]        tev: thread_cputime 0.000000000
+1669283287.276831 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: F#4:5/0:
+1669283287.276848 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110aac1:5eae4d7:3b38280b:200c2)
+1669283287.276731 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:200c2 #4: ST0 DCPSParticipantMessage/ParticipantMessageData:{110aac1:5eae4d7:3b38280b:1}:1<0>
+1669283287.276861 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283287.276928 [0] dq.builtin:  PMD ST0 pp 110aac1:5eae4d7:3b38280b kind 1 data 1
+1669283287.277013 [0] dq.builtin: thread_cputime 0.000000000
+1669283287.277173 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283287.277222 [0]        tev: traffic-xmit (1) 64
+1669283287.376085 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 424 from udp/172.17.0.2:49475
+1669283287.376148 [0]       recv: INFOTS(1669283263.276873519)
+1669283287.376192 [0]       recv: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 0:0:0:0 #1)
+1669283287.376228 [0]       recv: thread_cputime 0.000000000
+1669283287.376253 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283287.376296 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8582.290809)
+1669283290.349750 [0]        tev: thread_cputime 0.000000000
+1669283290.349851 [0]        tev: write_sample 1103e9d:bb552e58:7fa192ac:200c2 #3: ST0 DCPSParticipantMessage/ParticipantMessageData:{1103e9d:bb552e58:7fa192ac:1}:1<0>
+1669283290.349902 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(1103e9d:bb552e58:7fa192ac:200c2:#3/1)): niov 0 sz 0 => now niov 3 sz 84
+1669283290.349911 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:200c2 multicasting (rel-prd 1 seq-eq-max 1 seq 3 maxseq 2)
+1669283290.349922 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) piggybacked, resched in 0.1 s (min-ack 2, avail-seq 3, xmit 2)
+1669283290.349926 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 3 sz 84 => now niov 4 sz 116
+1669283290.350015 [0]        tev: nn_xpack_send 116: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x7f7a5c000c9c:28 0x7f7a4c000fa8:32 [ udp/172.17.0.2:50032@14 ]
+1669283290.350034 [0]        tev: traffic-xmit (1) 116
+1669283290.350044 [0]        tev: resched pmd(1103e9d:bb552e58:7fa192ac:1c1): 8s
+1669283290.350400 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 64 from udp/172.17.0.2:49475
+1669283290.350411 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283290.350424 [0]     recvUC: ACKNACK(F#4:4/0: L(:1c1 8585.264923) 110aac1:5eae4d7:3b38280b:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 ACK1 RM0)
+1669283290.350428 [0]     recvUC: thread_cputime 0.000000000
+1669283290.450105 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) suppressed, resched in inf s (min-ack 3, avail-seq 3, xmit 3)
+1669283290.450179 [0]        tev: non-timed queue now has 1 items
+1669283290.450188 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 0:0:0:100c7 (resched 8s)
+1669283290.450193 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 424
+1669283290.450293 [0]        tev: nn_xpack_send 424: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x55d1fdab15c4:368 [ udp/239.255.0.1:7400@14 ]
+1669283290.450297 [0]        tev: traffic-xmit (1) 424
+1669283290.450458 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 424 from udp/172.17.0.5:37816
+1669283290.450494 [0]       recv: INFOTS(1669283274.351259640)
+1669283290.450536 [0]       recv: DATA(1103e9d:bb552e58:7fa192ac:100c2 -> 0:0:0:0 #1)
+1669283290.450547 [0]       recv: thread_cputime 0.000000000
+1669283290.450640 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283290.450671 [0] dq.builtin: SPDP ST0 1103e9d:bb552e58:7fa192ac:1c1 (local)
+1669283290.450678 [0] dq.builtin: thread_cputime 0.000000000
+1669283292.351396 [0]         gc: thread_cputime 0.000000000
+1669283295.276543 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 116 from udp/172.17.0.2:49475
+1669283295.276584 [0]     recvUC: INFOTS(1669283295.276315928)
+1669283295.276601 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0 #5 L(:1c1 8590.191094))
+1669283295.276629 [0]     recvUC: HEARTBEAT(#6:5..5 110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:200c7@5(sync))
+1669283295.276650 [0]        tev: thread_cputime 0.000000000
+1669283295.276712 [0]     recvUC: thread_cputime 0.000000000
+1669283295.276720 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: F#5:6/0:
+1669283295.276724 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110aac1:5eae4d7:3b38280b:200c2)
+1669283295.276731 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283295.276755 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:200c2 #5: ST0 DCPSParticipantMessage/ParticipantMessageData:{110aac1:5eae4d7:3b38280b:1}:1<0>
+1669283295.276813 [0] dq.builtin:  PMD ST0 pp 110aac1:5eae4d7:3b38280b kind 1 data 1
+1669283295.276789 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283295.276830 [0]        tev: traffic-xmit (1) 64
+1669283295.276823 [0] dq.builtin: thread_cputime 0.000000000
+1669283295.376876 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 424 from udp/172.17.0.2:49475
+1669283295.376927 [0]       recv: INFOTS(1669283263.276873519)
+1669283295.376983 [0]       recv: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 0:0:0:0 #1)
+1669283295.376992 [0]       recv: thread_cputime 0.000000000
+1669283295.377056 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283295.377112 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8590.291623)
+1669283298.350124 [0]        tev: thread_cputime 0.000000000
+1669283298.350254 [0]        tev: write_sample 1103e9d:bb552e58:7fa192ac:200c2 #4: ST0 DCPSParticipantMessage/ParticipantMessageData:{1103e9d:bb552e58:7fa192ac:1}:1<0>
+1669283298.350286 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(1103e9d:bb552e58:7fa192ac:200c2:#4/1)): niov 0 sz 0 => now niov 3 sz 84
+1669283298.350294 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:200c2 multicasting (rel-prd 1 seq-eq-max 1 seq 4 maxseq 3)
+1669283298.350304 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) piggybacked, resched in 0.1 s (min-ack 3, avail-seq 4, xmit 3)
+1669283298.350311 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 3 sz 84 => now niov 4 sz 116
+1669283298.350433 [0]        tev: nn_xpack_send 116: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x7f7a5c00226c:28 0x7f7a4c000fa8:32 [ udp/172.17.0.2:50032@14 ]
+1669283298.350476 [0]        tev: traffic-xmit (1) 116
+1669283298.350493 [0]        tev: resched pmd(1103e9d:bb552e58:7fa192ac:1c1): 8s
+1669283298.351323 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 64 from udp/172.17.0.2:49475
+1669283298.351359 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283298.351388 [0]     recvUC: ACKNACK(F#5:5/0: L(:1c1 8593.265867) 110aac1:5eae4d7:3b38280b:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 ACK1 RM0)
+1669283298.351400 [0]     recvUC: thread_cputime 0.000000000
+1669283298.450557 [0]        tev: non-timed queue now has 1 items
+1669283298.450621 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 0:0:0:100c7 (resched 8s)
+1669283298.450631 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) suppressed, resched in inf s (min-ack 4, avail-seq 4, xmit 4)
+1669283298.450635 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 424
+1669283298.450810 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 424 from udp/172.17.0.5:37816
+1669283298.450856 [0]       recv: INFOTS(1669283274.351259640)
+1669283298.450898 [0]       recv: DATA(1103e9d:bb552e58:7fa192ac:100c2 -> 0:0:0:0 #1)
+1669283298.450830 [0]        tev: nn_xpack_send 424: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x55d1fdab15c4:368 [ udp/239.255.0.1:7400@14 ]
+1669283298.450907 [0]       recv: thread_cputime 0.000000000
+1669283298.450936 [0]        tev: traffic-xmit (1) 424
+1669283298.450947 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283298.451056 [0] dq.builtin: SPDP ST0 1103e9d:bb552e58:7fa192ac:1c1 (local)
+1669283298.451068 [0] dq.builtin: thread_cputime 0.000000000
+1669283300.350696 [0]         gc: thread_cputime 0.000000000
+1669283303.276987 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 116 from udp/172.17.0.2:49475
+1669283303.277034 [0]     recvUC: INFOTS(1669283303.276751103)
+1669283303.277050 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0 #6 L(:1c1 8598.191545))
+1669283303.277076 [0]     recvUC: HEARTBEAT(#7:6..6 110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:200c7@6(sync))
+1669283303.277096 [0]     recvUC: thread_cputime 0.000000000
+1669283303.277182 [0]        tev: thread_cputime 0.000000000
+1669283303.277240 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: F#6:7/0:
+1669283303.277248 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110aac1:5eae4d7:3b38280b:200c2)
+1669283303.277268 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283303.277192 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:200c2 #6: ST0 DCPSParticipantMessage/ParticipantMessageData:{110aac1:5eae4d7:3b38280b:1}:1<0>
+1669283303.277314 [0] dq.builtin:  PMD ST0 pp 110aac1:5eae4d7:3b38280b kind 1 data 1
+1669283303.277317 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283303.277322 [0] dq.builtin: thread_cputime 0.000000000
+1669283303.277322 [0]        tev: traffic-xmit (1) 64
+1669283303.376961 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 424 from udp/172.17.0.2:49475
+1669283303.376988 [0]       recv: INFOTS(1669283263.276873519)
+1669283303.377039 [0]       recv: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 0:0:0:0 #1)
+1669283303.377069 [0]       recv: thread_cputime 0.000000000
+1669283303.377119 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283303.377172 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8598.291681)
+1669283306.350306 [0]        tev: thread_cputime 0.000000000
+1669283306.350391 [0]        tev: write_sample 1103e9d:bb552e58:7fa192ac:200c2 #5: ST0 DCPSParticipantMessage/ParticipantMessageData:{1103e9d:bb552e58:7fa192ac:1}:1<0>
+1669283306.350428 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(1103e9d:bb552e58:7fa192ac:200c2:#5/1)): niov 0 sz 0 => now niov 3 sz 84
+1669283306.350434 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:200c2 multicasting (rel-prd 1 seq-eq-max 1 seq 5 maxseq 4)
+1669283306.350442 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) piggybacked, resched in 0.1 s (min-ack 4, avail-seq 5, xmit 4)
+1669283306.350446 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 3 sz 84 => now niov 4 sz 116
+1669283306.350530 [0]        tev: nn_xpack_send 116: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x7f7a5c000c9c:28 0x7f7a4c000fa8:32 [ udp/172.17.0.2:50032@14 ]
+1669283306.350538 [0]        tev: traffic-xmit (1) 116
+1669283306.350546 [0]        tev: resched pmd(1103e9d:bb552e58:7fa192ac:1c1): 8s
+1669283306.350952 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 64 from udp/172.17.0.2:49475
+1669283306.350998 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283306.351018 [0]     recvUC: ACKNACK(F#6:6/0: L(:1c1 8601.267162) 110aac1:5eae4d7:3b38280b:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 ACK1 RM0)
+1669283306.351024 [0]     recvUC: thread_cputime 0.000000000
+1669283306.449140 [0]        tev: non-timed queue now has 1 items
+1669283306.449197 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 0:0:0:100c7 (resched 8s)
+1669283306.449206 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 424
+1669283306.449294 [0]        tev: nn_xpack_send 424: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x55d1fdab15c4:368 [ udp/239.255.0.1:7400@14 ]
+1669283306.449298 [0]        tev: traffic-xmit (1) 424
+1669283306.449331 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 424 from udp/172.17.0.5:37816
+1669283306.449368 [0]       recv: INFOTS(1669283274.351259640)
+1669283306.449398 [0]       recv: DATA(1103e9d:bb552e58:7fa192ac:100c2 -> 0:0:0:0 #1)
+1669283306.449432 [0]       recv: thread_cputime 0.000000000
+1669283306.449463 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283306.449500 [0] dq.builtin: SPDP ST0 1103e9d:bb552e58:7fa192ac:1c1 (local)
+1669283306.449505 [0] dq.builtin: thread_cputime 0.000000000
+1669283306.450586 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) suppressed, resched in inf s (min-ack 5, avail-seq 5, xmit 5)
+1669283308.351688 [0]         gc: thread_cputime 0.000000000
+1669283311.275542 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 116 from udp/172.17.0.2:49475
+1669283311.275565 [0]     recvUC: INFOTS(1669283311.275338911)
+1669283311.275580 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0 #7 L(:1c1 8606.191730))
+1669283311.275613 [0]     recvUC: HEARTBEAT(#8:7..7 110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:200c7@7(sync))
+1669283311.275670 [0]     recvUC: thread_cputime 0.000000000
+1669283311.275705 [0]        tev: thread_cputime 0.000000000
+1669283311.275754 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: F#7:8/0:
+1669283311.275758 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110aac1:5eae4d7:3b38280b:200c2)
+1669283311.275764 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283311.275830 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283311.275876 [0]        tev: traffic-xmit (1) 64
+1669283311.275841 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:200c2 #7: ST0 DCPSParticipantMessage/ParticipantMessageData:{110aac1:5eae4d7:3b38280b:1}:1<0>
+1669283311.275901 [0] dq.builtin:  PMD ST0 pp 110aac1:5eae4d7:3b38280b kind 1 data 1
+1669283311.275908 [0] dq.builtin: thread_cputime 0.000000000
+1669283311.375285 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 424 from udp/172.17.0.2:49475
+1669283311.375329 [0]       recv: INFOTS(1669283263.276873519)
+1669283311.375382 [0]       recv: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 0:0:0:0 #1)
+1669283311.375393 [0]       recv: thread_cputime 0.000000000
+1669283311.375468 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283311.375506 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8606.291669)
+1669283314.350698 [0]        tev: thread_cputime 0.000000000
+1669283314.350834 [0]        tev: write_sample 1103e9d:bb552e58:7fa192ac:200c2 #6: ST0 DCPSParticipantMessage/ParticipantMessageData:{1103e9d:bb552e58:7fa192ac:1}:1<0>
+1669283314.350868 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(1103e9d:bb552e58:7fa192ac:200c2:#6/1)): niov 0 sz 0 => now niov 3 sz 84
+1669283314.350877 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:200c2 multicasting (rel-prd 1 seq-eq-max 1 seq 6 maxseq 5)
+1669283314.350889 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) piggybacked, resched in 0.1 s (min-ack 5, avail-seq 6, xmit 5)
+1669283314.350896 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 3 sz 84 => now niov 4 sz 116
+1669283314.351026 [0]        tev: nn_xpack_send 116: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x7f7a5c00226c:28 0x7f7a4c000fa8:32 [ udp/172.17.0.2:50032@14 ]
+1669283314.351064 [0]        tev: traffic-xmit (1) 116
+1669283314.351080 [0]        tev: resched pmd(1103e9d:bb552e58:7fa192ac:1c1): 8s
+1669283314.351849 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 64 from udp/172.17.0.2:49475
+1669283314.351889 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283314.351923 [0]     recvUC: ACKNACK(F#7:7/0: L(:1c1 8609.268051) 110aac1:5eae4d7:3b38280b:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 ACK1 RM0)
+1669283314.351939 [0]     recvUC: thread_cputime 0.000000000
+1669283314.449444 [0]        tev: non-timed queue now has 1 items
+1669283314.449527 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 0:0:0:100c7 (resched 8s)
+1669283314.449540 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 424
+1669283314.449666 [0]        tev: nn_xpack_send 424: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x55d1fdab15c4:368 [ udp/239.255.0.1:7400@14 ]
+1669283314.449673 [0]        tev: traffic-xmit (1) 424
+1669283314.449728 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 424 from udp/172.17.0.5:37816
+1669283314.449783 [0]       recv: INFOTS(1669283274.351259640)
+1669283314.449823 [0]       recv: DATA(1103e9d:bb552e58:7fa192ac:100c2 -> 0:0:0:0 #1)
+1669283314.449834 [0]       recv: thread_cputime 0.000000000
+1669283314.449918 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283314.449960 [0] dq.builtin: SPDP ST0 1103e9d:bb552e58:7fa192ac:1c1 (local)
+1669283314.449967 [0] dq.builtin: thread_cputime 0.000000000
+1669283314.451273 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) suppressed, resched in inf s (min-ack 6, avail-seq 6, xmit 6)
+1669283316.351424 [0]         gc: thread_cputime 0.000000000
+1669283319.275751 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 116 from udp/172.17.0.2:49475
+1669283319.275769 [0]     recvUC: INFOTS(1669283319.275510443)
+1669283319.275783 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0 #8 L(:1c1 8614.191935))
+1669283319.275818 [0]     recvUC: HEARTBEAT(#9:8..8 110aac1:5eae4d7:3b38280b:200c2 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:200c7@8(sync))
+1669283319.275838 [0]        tev: thread_cputime 0.000982000
+1669283319.275858 [0]     recvUC: thread_cputime 0.000000000
+1669283319.275865 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110aac1:5eae4d7:3b38280b:200c2: F#8:9/0:
+1669283319.275871 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110aac1:5eae4d7:3b38280b:200c2)
+1669283319.275877 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283319.275890 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:200c2 #8: ST0 DCPSParticipantMessage/ParticipantMessageData:{110aac1:5eae4d7:3b38280b:1}:1<0>
+1669283319.275901 [0] dq.builtin:  PMD ST0 pp 110aac1:5eae4d7:3b38280b kind 1 data 1
+1669283319.275911 [0] dq.builtin: thread_cputime 0.000000000
+1669283319.275931 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.2:50032@14 ]
+1669283319.275949 [0]        tev: traffic-xmit (1) 64
+1669283319.375523 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 424 from udp/172.17.0.2:49475
+1669283319.375565 [0]       recv: INFOTS(1669283263.276873519)
+1669283319.375606 [0]       recv: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 0:0:0:0 #1)
+1669283319.375616 [0]       recv: thread_cputime 0.000000000
+1669283319.375665 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_publisher1",1:"__Pid":"558",1:"__Hostname":"cadce22b2873"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110aac1:5eae4d7:3b38280b:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.2:50032},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.2:50032},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"cadce22b2873/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283319.375701 [0] dq.builtin: SPDP ST0 110aac1:5eae4d7:3b38280b:1c1 (known) L(:1c1 8614.291866)
+1669283322.351090 [0]        tev: thread_cputime 0.001144000
+1669283322.351265 [0]        tev: write_sample 1103e9d:bb552e58:7fa192ac:200c2 #7: ST0 DCPSParticipantMessage/ParticipantMessageData:{1103e9d:bb552e58:7fa192ac:1}:1<0>
+1669283322.351419 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(1103e9d:bb552e58:7fa192ac:200c2:#7/1)): niov 0 sz 0 => now niov 3 sz 84
+1669283322.351440 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:200c2 multicasting (rel-prd 1 seq-eq-max 1 seq 7 maxseq 6)
+1669283322.351457 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) piggybacked, resched in 0.1 s (min-ack 6, avail-seq 7, xmit 6)
+1669283322.351466 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 3 sz 84 => now niov 4 sz 116
+1669283322.351620 [0]        tev: nn_xpack_send 116: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x7f7a5c000c9c:28 0x7f7a4c000fa8:32 [ udp/172.17.0.2:50032@14 ]
+1669283322.351695 [0]        tev: traffic-xmit (1) 116
+1669283322.351718 [0]        tev: resched pmd(1103e9d:bb552e58:7fa192ac:1c1): 8s
+1669283322.352310 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 64 from udp/172.17.0.2:49475
+1669283322.352437 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283322.352477 [0]     recvUC: ACKNACK(F#8:8/0: L(:1c1 8617.268595) 110aac1:5eae4d7:3b38280b:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 ACK1 RM0)
+1669283322.352490 [0]     recvUC: thread_cputime 0.000000000
+1669283322.449858 [0]        tev: non-timed queue now has 1 items
+1669283322.449948 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 0:0:0:100c7 (resched 8s)
+1669283322.449962 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 424
+1669283322.450104 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 424 from udp/172.17.0.5:37816
+1669283322.450177 [0]       recv: INFOTS(1669283274.351259640)
+1669283322.450110 [0]        tev: nn_xpack_send 424: 0x7f7a5c000b6c:20 0x7f7a4c000c58:36 0x55d1fdab15c4:368 [ udp/239.255.0.1:7400@14 ]
+1669283322.450215 [0]       recv: DATA(1103e9d:bb552e58:7fa192ac:100c2 -> 0:0:0:0 #1)
+1669283322.450231 [0]       recv: thread_cputime 0.000000000
+1669283322.450247 [0]        tev: traffic-xmit (1) 424
+1669283322.450275 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber2",1:"__Pid":"236",1:"__Hostname":"a6d651a11daa"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={1103e9d:bb552e58:7fa192ac:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.5:39149},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.5:39149},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"a6d651a11daa/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283322.450304 [0] dq.builtin: SPDP ST0 1103e9d:bb552e58:7fa192ac:1c1 (local)
+1669283322.450314 [0] dq.builtin: thread_cputime 0.000000000
+1669283322.451603 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) suppressed, resched in inf s (min-ack 7, avail-seq 7, xmit 7)
+1669283324.352346 [0]         gc: thread_cputime 0.000000000
+1669283325.489541 [0]       recv: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 424 from udp/172.17.0.3:56972
+1669283325.489559 [0]       recv: INFOTS(1669283325.488778444)
+1669283325.489615 [0]       recv: DATA(110b86a:592170ca:9047c3f5:100c2 -> 0:0:0:0 #1)
+1669283325.489635 [0]       recv: thread_cputime 0.000000000
+1669283325.489670 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #1: ST0 /ParticipantBuiltinTopicData:{property_list={1:"__ProcessName":"appendable_subscriber1",1:"__Pid":"223",1:"__Hostname":"33e899460f7d"}:{},protocol_version=2:1,vendorid=1:16,participant_lease_duration=10000000000,participant_guid={110b86a:592170ca:9047c3f5:1c1},builtin_endpoint_set=64575,domain_id=0,default_unicast_locator={udp/172.17.0.3:35111},default_multicast_locator={udp/239.255.0.1:7401},metatraffic_unicast_locator={udp/172.17.0.3:35111},metatraffic_multicast_locator={udp/239.255.0.1:7400},adlink_participant_version_info=0:44:0:0:0:"33e899460f7d/0.11.0/Linux/Linux",cyclone_receive_buffer_size=425984}
+1669283325.489711 [0] dq.builtin: SPDP ST0 110b86a:592170ca:9047c3f5:1c1 bes fc3f NEW (0x00000000-0x0000002c-0x00000000-0x00000000-0x00000000 33e899460f7d/0.11.0/Linux/Linux) (data udp/239.255.0.1:7401@14 udp/172.17.0.3:35111@14 meta udp/239.255.0.1:7400@14 udp/172.17.0.3:35111@14) QOS={property_list={1:"__ProcessName":"appendable_subscriber1",1:"__Pid":"223",1:"__Hostname":"33e899460f7d"}:{}}
+1669283325.489765 [0] dq.builtin: lease_new(tdur 10000000000 guid 110b86a:592170ca:9047c3f5:1c1) @ 0x7f7a58006c30
+1669283325.489784 [0] dq.builtin: lease_new(tdur 10000000000 guid 110b86a:592170ca:9047c3f5:1c1) @ 0x7f7a58007050
+1669283325.489837 [0]         gc: gc 0x7f7a58007990: not yet, shortsleep
+1669283325.489840 [0] dq.builtin: match_proxy_reader_with_writers(prd 110b86a:592170ca:9047c3f5:100c7) scanning participants tgt=0
+1669283325.489882 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110b86a:592170ca:9047c3f5:3c2) scanning participants tgt=3c7
+1669283325.489890 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:3c7 init_acknack_count = 1
+1669283325.489894 [0] dq.builtin:   reader_add_connection(pwr 110b86a:592170ca:9047c3f5:3c2 rd 1103e9d:bb552e58:7fa192ac:3c7)
+1669283325.489919 [0] dq.builtin:   proxy_writer_add_connection(pwr 110b86a:592170ca:9047c3f5:3c2 rd 1103e9d:bb552e58:7fa192ac:3c7) - out-of-sync
+1669283325.489928 [0]        tev: thread_cputime 0.002449000
+1669283325.489933 [0] dq.builtin: match_proxy_reader_with_writers(prd 110b86a:592170ca:9047c3f5:3c7) scanning participants tgt=3c2
+1669283325.489947 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:3c2 prd 110b86a:592170ca:9047c3f5:3c7)
+1669283325.489952 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:3c2 prd 110b86a:592170ca:9047c3f5:3c7) - ack seq 0
+1669283325.489963 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14 udp/172.17.0.3:35111@14
+1669283325.489968 [0] dq.builtin: reduced nlocs=3
+1669283325.489973 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.489978 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.3:35111@14 1 -> 0
+1669283325.489982 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.489986 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.489990 [0] dq.builtin: rdidx 1 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.489994 [0] dq.builtin: rdidx 1 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.489999 [0] dq.builtin:                                                                   a   b
+1669283325.490005 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 {  .. +u  }
+1669283325.490010 [0] dq.builtin:   loc  1 = udp/172.17.0.3:35111@14                           1 { +u   .. }
+1669283325.490015 [0] dq.builtin:   loc  2 = udp/239.255.0.1:7400@14                           1 { +1  +1  }
+1669283325.490018 [0] dq.builtin:   best = 2
+1669283325.490022 [0] dq.builtin:   simple udp/239.255.0.1:7400@14
+1669283325.490028 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:3c2): udp/239.255.0.1:7400@14 (burst size 4294901760 rexmit 283990)
+1669283325.490055 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110b86a:592170ca:9047c3f5:4c2) scanning participants tgt=4c7
+1669283325.490061 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:4c7 init_acknack_count = 1
+1669283325.490065 [0] dq.builtin:   reader_add_connection(pwr 110b86a:592170ca:9047c3f5:4c2 rd 1103e9d:bb552e58:7fa192ac:4c7)
+1669283325.490070 [0] dq.builtin:   proxy_writer_add_connection(pwr 110b86a:592170ca:9047c3f5:4c2 rd 1103e9d:bb552e58:7fa192ac:4c7) - out-of-sync
+1669283325.490081 [0] dq.builtin: match_proxy_reader_with_writers(prd 110b86a:592170ca:9047c3f5:4c7) scanning participants tgt=4c2
+1669283325.490086 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:4c2 prd 110b86a:592170ca:9047c3f5:4c7)
+1669283325.490090 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:4c2 prd 110b86a:592170ca:9047c3f5:4c7) - ack seq 1
+1669283325.490098 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14 udp/172.17.0.3:35111@14
+1669283325.490101 [0] dq.builtin: reduced nlocs=3
+1669283325.490106 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.490110 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.3:35111@14 1 -> 0
+1669283325.490114 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.490118 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.490122 [0] dq.builtin: rdidx 1 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.490126 [0] dq.builtin: rdidx 1 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.490169 [0] dq.builtin:                                                                   a   b
+1669283325.490174 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 {  .. +u  }
+1669283325.490179 [0] dq.builtin:   loc  1 = udp/172.17.0.3:35111@14                           1 { +u   .. }
+1669283325.490184 [0] dq.builtin:   loc  2 = udp/239.255.0.1:7400@14                           1 { +1  +1  }
+1669283325.490187 [0] dq.builtin:   best = 2
+1669283325.490190 [0] dq.builtin:   simple udp/239.255.0.1:7400@14
+1669283325.490197 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:4c2): udp/239.255.0.1:7400@14 (burst size 4294901760 rexmit 283990)
+1669283325.490208 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110b86a:592170ca:9047c3f5:200c2) scanning participants tgt=200c7
+1669283325.490212 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:200c7 init_acknack_count = 1
+1669283325.490216 [0] dq.builtin:   reader_add_connection(pwr 110b86a:592170ca:9047c3f5:200c2 rd 1103e9d:bb552e58:7fa192ac:200c7)
+1669283325.490221 [0] dq.builtin:   proxy_writer_add_connection(pwr 110b86a:592170ca:9047c3f5:200c2 rd 1103e9d:bb552e58:7fa192ac:200c7) - out-of-sync
+1669283325.490229 [0] dq.builtin: match_proxy_reader_with_writers(prd 110b86a:592170ca:9047c3f5:200c7) scanning participants tgt=200c2
+1669283325.490234 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:200c2 prd 110b86a:592170ca:9047c3f5:200c7)
+1669283325.490238 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:200c2 prd 110b86a:592170ca:9047c3f5:200c7) - ack seq 7
+1669283325.490245 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14 udp/172.17.0.3:35111@14
+1669283325.490249 [0] dq.builtin: reduced nlocs=3
+1669283325.490253 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.490256 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.3:35111@14 1 -> 0
+1669283325.490260 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.490263 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.490267 [0] dq.builtin: rdidx 1 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.490271 [0] dq.builtin: rdidx 1 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.490274 [0] dq.builtin:                                                                   a   b
+1669283325.490278 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 {  .. +u  }
+1669283325.490283 [0] dq.builtin:   loc  1 = udp/172.17.0.3:35111@14                           1 { +u   .. }
+1669283325.490287 [0] dq.builtin:   loc  2 = udp/239.255.0.1:7400@14                           1 { +1  +1  }
+1669283325.490290 [0] dq.builtin:   best = 2
+1669283325.490293 [0] dq.builtin:   simple udp/239.255.0.1:7400@14
+1669283325.490299 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:200c2): udp/239.255.0.1:7400@14 (burst size 4294901760 rexmit 283990)
+1669283325.490313 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110b86a:592170ca:9047c3f5:300c3) scanning participants tgt=300c4
+1669283325.490317 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:300c4 init_acknack_count = 1
+1669283325.490320 [0] dq.builtin:   reader_add_connection(pwr 110b86a:592170ca:9047c3f5:300c3 rd 1103e9d:bb552e58:7fa192ac:300c4)
+1669283325.490324 [0] dq.builtin:   proxy_writer_add_connection(pwr 110b86a:592170ca:9047c3f5:300c3 rd 1103e9d:bb552e58:7fa192ac:300c4) - out-of-sync
+1669283325.490332 [0] dq.builtin: match_proxy_reader_with_writers(prd 110b86a:592170ca:9047c3f5:300c4) scanning participants tgt=300c3
+1669283325.490336 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:300c3 prd 110b86a:592170ca:9047c3f5:300c4)
+1669283325.490339 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:300c3 prd 110b86a:592170ca:9047c3f5:300c4) - ack seq 0
+1669283325.490346 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14 udp/172.17.0.3:35111@14
+1669283325.490350 [0] dq.builtin: reduced nlocs=3
+1669283325.490357 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.490360 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.3:35111@14 1 -> 0
+1669283325.490364 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.490367 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.490371 [0] dq.builtin: rdidx 1 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.490374 [0] dq.builtin: rdidx 1 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.490378 [0] dq.builtin:                                                                   a   b
+1669283325.490382 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 {  .. +u  }
+1669283325.490386 [0] dq.builtin:   loc  1 = udp/172.17.0.3:35111@14                           1 { +u   .. }
+1669283325.490390 [0] dq.builtin:   loc  2 = udp/239.255.0.1:7400@14                           1 { +1  +1  }
+1669283325.490393 [0] dq.builtin:   best = 2
+1669283325.490397 [0] dq.builtin:   simple udp/239.255.0.1:7400@14
+1669283325.490403 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:300c3): udp/239.255.0.1:7400@14 (burst size 4294901760 rexmit 283990)
+1669283325.490410 [0] dq.builtin: match_proxy_writer_with_readers(pwr 110b86a:592170ca:9047c3f5:301c3) scanning participants tgt=301c4
+1669283325.490415 [0] dq.builtin:   reader 1103e9d:bb552e58:7fa192ac:301c4 init_acknack_count = 1
+1669283325.490418 [0] dq.builtin:   reader_add_connection(pwr 110b86a:592170ca:9047c3f5:301c3 rd 1103e9d:bb552e58:7fa192ac:301c4)
+1669283325.490422 [0] dq.builtin:   proxy_writer_add_connection(pwr 110b86a:592170ca:9047c3f5:301c3 rd 1103e9d:bb552e58:7fa192ac:301c4) - out-of-sync
+1669283325.490431 [0] dq.builtin: match_proxy_reader_with_writers(prd 110b86a:592170ca:9047c3f5:301c4) scanning participants tgt=301c3
+1669283325.490435 [0] dq.builtin:   proxy_reader_add_connection(wr 1103e9d:bb552e58:7fa192ac:301c3 prd 110b86a:592170ca:9047c3f5:301c4)
+1669283325.490439 [0] dq.builtin:   writer_add_connection(wr 1103e9d:bb552e58:7fa192ac:301c3 prd 110b86a:592170ca:9047c3f5:301c4) - ack seq 0
+1669283325.490446 [0] dq.builtin: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14 udp/172.17.0.3:35111@14
+1669283325.490449 [0] dq.builtin: reduced nlocs=3
+1669283325.490453 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.490457 [0] dq.builtin: rdidx 0 lidx udp/172.17.0.3:35111@14 1 -> 0
+1669283325.490460 [0] dq.builtin: rdidx 0 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.490464 [0] dq.builtin: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.490467 [0] dq.builtin: rdidx 1 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.490471 [0] dq.builtin: rdidx 1 lidx udp/239.255.0.1:7400@14 2 -> 8
+1669283325.490475 [0] dq.builtin:                                                                   a   b
+1669283325.490480 [0] dq.builtin:   loc  0 = udp/172.17.0.2:50032@14                           1 {  .. +u  }
+1669283325.490484 [0] dq.builtin:   loc  1 = udp/172.17.0.3:35111@14                           1 { +u   .. }
+1669283325.490489 [0] dq.builtin:   loc  2 = udp/239.255.0.1:7400@14                           1 { +1  +1  }
+1669283325.490492 [0] dq.builtin:   best = 2
+1669283325.490495 [0] dq.builtin:   simple udp/239.255.0.1:7400@14
+1669283325.490500 [0] dq.builtin: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:301c3): udp/239.255.0.1:7400@14 (burst size 4294901760 rexmit 283990)
+1669283325.490524 [0] dq.builtin:  => EVERYONE
+1669283325.490530 [0] dq.builtin: lease_register(l 0x7f7a58007050 guid 110b86a:592170ca:9047c3f5:1c1)
+1669283325.490554 [0] dq.builtin: broadcasted SPDP packet -> answering 0
+1669283325.490562 [0] dq.builtin: thread_cputime 0.000000000
+1669283325.490591 [0]        tev: non-timed queue now has 1 items
+1669283325.490600 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 110b86a:592170ca:9047c3f5:100c7 (resched 1s)
+1669283325.490605 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(data(0:0:0:0:#0/1)): niov 0 sz 0 => now niov 3 sz 440
+1669283325.490767 [0]        tev: nn_xpack_send 440: 0x7f7a5c000b6c:20 0x7f7a4c000c48:52 0x55d1fdab15c4:368 [ udp/172.17.0.3:35111@14 ]
+1669283325.490778 [0]        tev: traffic-xmit (1) 440
+1669283325.490927 [0]         gc: thread_cputime 0.000000000
+1669283325.490940 [0]         gc: gc 0x7f7a58007990: deleting
+1669283325.490943 [0]         gc: gc 0x7f7a5800b710: deleting
+1669283325.491107 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:3c2 multicasting (rel-prd 2 seq-eq-max 0 seq 0 maxseq 0)
+1669283325.491117 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:3c2) sent, resched in 0.1 s (min-ack 0!, avail-seq 0, xmit 0)
+1669283325.491122 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 52
+1669283325.491174 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 52 from udp/172.17.0.5:37816
+1669283325.491185 [0]       recv: HEARTBEAT(#2:1..0 1103e9d:bb552e58:7fa192ac:3c2? -> 0:0:0:0)
+1669283325.491206 [0]        tev: nn_xpack_send 52: 0x7f7a5c000b6c:20 0x7f7a4c000c58:32 [ udp/239.255.0.1:7400@14 ]
+1669283325.491212 [0]        tev: traffic-xmit (1) 52
+1669283325.491221 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:4c2 unicasting to prd 110b86a:592170ca:9047c3f5:4c7 (rel-prd 2 seq-eq-max 1 seq 1 maxseq 1)
+1669283325.491227 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:4c2) sent, resched in 0.1 s (min-ack 1!, avail-seq 1, xmit 1)
+1669283325.491232 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283325.491250 [0]        tev: nn_xpack_send 68: 0x7f7a5c000b6c:20 0x7f7a4c000c48:48 [ udp/172.17.0.3:35111@14 ]
+1669283325.491254 [0]        tev: traffic-xmit (1) 68
+1669283325.491336 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:200c2 unicasting to prd 110b86a:592170ca:9047c3f5:200c7 (rel-prd 2 seq-eq-max 1 seq 7 maxseq 7)
+1669283325.491347 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) sent, resched in 0.1 s (min-ack 7!, avail-seq 7, xmit 7)
+1669283325.491352 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283325.491453 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 52 from udp/172.17.0.2:49475
+1669283325.491455 [0]        tev: nn_xpack_send 68: 0x7f7a5c000b6c:20 0x7f7a4c000c48:48 [ udp/172.17.0.3:35111@14 ]
+1669283325.491487 [0]        tev: traffic-xmit (1) 68
+1669283325.491488 [0]       recv: HEARTBEAT(#3:1..0  L(:1c1 8620.407645)110aac1:5eae4d7:3b38280b:4c2 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:4c7@0(sync))
+1669283325.491499 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:300c3 multicasting (rel-prd 2 seq-eq-max 0 seq 0 maxseq 0)
+1669283325.491544 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:300c3) sent, resched in 0.1 s (min-ack 0!, avail-seq 0, xmit 0)
+1669283325.491551 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 52
+1669283325.491559 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:4c7 -> 110aac1:5eae4d7:3b38280b:4c2: F#2:1/0:
+1669283325.491563 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:4c7 -> pwr 110aac1:5eae4d7:3b38280b:4c2)
+1669283325.491620 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 52 from udp/172.17.0.5:37816
+1669283325.491633 [0]       recv: HEARTBEAT(#2:1..0 1103e9d:bb552e58:7fa192ac:300c3? -> 0:0:0:0)
+1669283325.491687 [0]        tev: nn_xpack_send 52: 0x7f7a5c000b6c:20 0x7f7a4c000c58:32 [ udp/239.255.0.1:7400@14 ]
+1669283325.491708 [0]        tev: traffic-xmit (1) 52
+1669283325.491714 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.491722 [0]        tev: writer_hbcontrol: wr 1103e9d:bb552e58:7fa192ac:301c3 multicasting (rel-prd 2 seq-eq-max 0 seq 0 maxseq 0)
+1669283325.491729 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:301c3) sent, resched in 0.1 s (min-ack 0!, avail-seq 0, xmit 0)
+1669283325.491750 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000f98:44 [ udp/172.17.0.2:50032@14 ]
+1669283325.491760 [0]        tev: traffic-xmit (1) 64
+1669283325.491765 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 52
+1669283325.491804 [0]       recv: HDR(1103e9d:bb552e58:7fa192ac vendor 1.16) len 52 from udp/172.17.0.5:37816
+1669283325.491815 [0]       recv: HEARTBEAT(#2:1..0 1103e9d:bb552e58:7fa192ac:301c3? -> 0:0:0:0)
+1669283325.491849 [0]        tev: nn_xpack_send 52: 0x7f7a5c000b6c:20 0x7f7a4c000c58:32 [ udp/239.255.0.1:7400@14 ]
+1669283325.491867 [0]        tev: traffic-xmit (1) 52
+1669283325.491980 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 84 from udp/172.17.0.2:49475
+1669283325.491997 [0]       recv: HEARTBEAT(#3:1..0  L(:1c1 8620.408154)110aac1:5eae4d7:3b38280b:300c3 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:300c4@0(sync))
+1669283325.492003 [0]       recv: HEARTBEAT(#3:1..0 110aac1:5eae4d7:3b38280b:301c3 -> 0:0:0:0: 1103e9d:bb552e58:7fa192ac:301c4@0(sync))
+1669283325.492032 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:300c4 -> 110aac1:5eae4d7:3b38280b:300c3: F#2:1/0:
+1669283325.492038 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:300c4 -> pwr 110aac1:5eae4d7:3b38280b:300c3)
+1669283325.492043 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.492047 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:301c4 -> 110aac1:5eae4d7:3b38280b:301c3: F#2:1/0:
+1669283325.492051 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:301c4 -> pwr 110aac1:5eae4d7:3b38280b:301c3)
+1669283325.492055 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 2 sz 64 => now niov 3 sz 92
+1669283325.492076 [0]        tev: nn_xpack_send 92: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 0x7f7a4c000fa8:28 [ udp/172.17.0.2:50032@14 ]
+1669283325.492080 [0]        tev: traffic-xmit (1) 92
+1669283325.492094 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 120 from udp/172.17.0.2:49475
+1669283325.492100 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.492108 [0]     recvUC: ACKNACK(F#2:1/0: L(:1c1 8620.408267) 110aac1:5eae4d7:3b38280b:3c7 -> 1103e9d:bb552e58:7fa192ac:3c2)
+1669283325.492113 [0]     recvUC: ACKNACK(F#2:1/0: 110aac1:5eae4d7:3b38280b:300c4 -> 1103e9d:bb552e58:7fa192ac:300c3)
+1669283325.492118 [0]     recvUC: ACKNACK(F#2:1/0: 110aac1:5eae4d7:3b38280b:301c4 -> 1103e9d:bb552e58:7fa192ac:301c3)
+1669283325.492123 [0]     recvUC: thread_cputime 0.000000000
+1669283325.500141 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:3c7 -> 110b86a:592170ca:9047c3f5:3c2: #0:1/0:
+1669283325.500186 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.500196 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:4c7 -> 110b86a:592170ca:9047c3f5:4c2: #0:1/0:
+1669283325.500198 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 2 sz 64 => now niov 3 sz 92
+1669283325.500261 [0]        tev: nn_xpack_send 92: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 0x7f7a4c000fa8:28 [ udp/172.17.0.3:35111@14 ]
+1669283325.500279 [0]        tev: traffic-xmit (1) 92
+1669283325.500288 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110b86a:592170ca:9047c3f5:200c2: #0:1/0:
+1669283325.500292 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.500304 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.3:35111@14 ]
+1669283325.500321 [0]        tev: traffic-xmit (1) 64
+1669283325.500329 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:300c4 -> 110b86a:592170ca:9047c3f5:300c3: #0:1/0:
+1669283325.500333 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.500343 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.3:35111@14 ]
+1669283325.500346 [0]        tev: traffic-xmit (1) 64
+1669283325.500492 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:301c4 -> 110b86a:592170ca:9047c3f5:301c3: #0:1/0:
+1669283325.500500 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.500530 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.3:35111@14 ]
+1669283325.500533 [0]        tev: traffic-xmit (1) 64
+1669283325.500567 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 100 from udp/172.17.0.3:56972
+1669283325.500587 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.500619 [0]     recvUC: HEARTBEAT(#2:1..0  L(:1c1 8620.416753)110b86a:592170ca:9047c3f5:3c2 -> 1103e9d:bb552e58:7fa192ac:3c7: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:3c7 #0) msr_in_sync(1103e9d:bb552e58:7fa192ac:3c7 out-of-sync to tlcatchup) 1103e9d:bb552e58:7fa192ac:3c7@0(sync))
+1669283325.500657 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:3c7 -> 110b86a:592170ca:9047c3f5:3c2: F#1:1/0:
+1669283325.500687 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:3c7 -> pwr 110b86a:592170ca:9047c3f5:3c2)
+1669283325.500694 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.500704 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:4c7 -> 110b86a:592170ca:9047c3f5:4c2: F#1:1/1:1
+1669283325.500707 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:4c7 -> pwr 110b86a:592170ca:9047c3f5:4c2)
+1669283325.500711 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 2 sz 64 => now niov 3 sz 96
+1669283325.500660 [0]     recvUC: HEARTBEAT(#3:1..1 110b86a:592170ca:9047c3f5:4c2 -> 1103e9d:bb552e58:7fa192ac:4c7: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:4c7 #1) 1103e9d:bb552e58:7fa192ac:4c7@0)
+1669283325.500782 [0]        tev: nn_xpack_send 96: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 0x7f7a4c000fa8:32 [ udp/172.17.0.3:35111@14 ]
+1669283325.500854 [0]        tev: traffic-xmit (1) 96
+1669283325.500833 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 100 from udp/172.17.0.3:56972
+1669283325.500869 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.500895 [0]     recvUC: HEARTBEAT(#3:1..1  L(:1c1 8620.417035)110b86a:592170ca:9047c3f5:200c2 -> 1103e9d:bb552e58:7fa192ac:200c7: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:200c7 #1) 1103e9d:bb552e58:7fa192ac:200c7@0)
+1669283325.500907 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110b86a:592170ca:9047c3f5:200c2: F#1:1/1:1
+1669283325.500928 [0]     recvUC: HEARTBEAT(#2:1..0 110b86a:592170ca:9047c3f5:300c3 -> 1103e9d:bb552e58:7fa192ac:300c4: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:300c4 #0) msr_in_sync(1103e9d:bb552e58:7fa192ac:300c4 out-of-sync to tlcatchup) 1103e9d:bb552e58:7fa192ac:300c4@0(sync))
+1669283325.500947 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110b86a:592170ca:9047c3f5:200c2)
+1669283325.500976 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283325.500995 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:300c4 -> 110b86a:592170ca:9047c3f5:300c3: F#1:1/0:
+1669283325.501022 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:300c4 -> pwr 110b86a:592170ca:9047c3f5:300c3)
+1669283325.501039 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 2 sz 68 => now niov 3 sz 96
+1669283325.501001 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 68 from udp/172.17.0.3:56972
+1669283325.501075 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.501082 [0]     recvUC: HEARTBEAT(#2:1..0  L(:1c1 8620.417243)110b86a:592170ca:9047c3f5:301c3 -> 1103e9d:bb552e58:7fa192ac:301c4: end-of-tl-seq(rd 1103e9d:bb552e58:7fa192ac:301c4 #0) msr_in_sync(1103e9d:bb552e58:7fa192ac:301c4 out-of-sync to tlcatchup) 1103e9d:bb552e58:7fa192ac:301c4@0(sync))
+1669283325.501089 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 396 from udp/172.17.0.3:56972
+1669283325.501119 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.501088 [0]        tev: nn_xpack_send 96: 0x7f7a5c000b6c:20 0x7f7a4c000c48:48 0x7f7a4c000fa8:28 [ udp/172.17.0.3:35111@14 ]
+1669283325.501197 [0]     recvUC: INFOTS(1669283325.491686590)
+1669283325.501254 [0]        tev: traffic-xmit (1) 96
+1669283325.501272 [0]     recvUC: DATA(110b86a:592170ca:9047c3f5:4c2 -> 1103e9d:bb552e58:7fa192ac:4c7 #1 L(:1c1 8620.417286) msr_in_sync(1103e9d:bb552e58:7fa192ac:4c7 out-of-sync to tlcatchup))
+1669283325.501277 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:301c4 -> 110b86a:592170ca:9047c3f5:301c3: F#1:1/0:
+1669283325.501282 [0]     recvUC: HEARTBEAT(#4:1..1 110b86a:592170ca:9047c3f5:4c2 -> 1103e9d:bb552e58:7fa192ac:4c7: 1103e9d:bb552e58:7fa192ac:4c7@1(sync))
+1669283325.501282 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:301c4 -> pwr 110b86a:592170ca:9047c3f5:301c3)
+1669283325.501328 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.501332 [0] dq.builtin: data(builtin, vendor 1.16): 110b86a:592170ca:9047c3f5:4c2 #1: ST0 DCPSSubscription/SubscriptionBuiltinTopicData:{topic_name="module_test_Msg",type_name="module_test::Msg",durability_service=0:0:1:-1:-1:-1,reliability=0:100000000,lifespan=9223372036854775807,type_consistency_enforcement=0:00010,data_representation=1(2),type_information=[MINIMAL 02e2a8cd8e8c6a3d5858e984b05a]/[COMPLETE 82060bf133aeb1cef30b8f914840],protocol_version=2:1,vendorid=1:16,endpoint_guid={110b86a:592170ca:9047c3f5:204},adlink_entity_factory=1}
+1669283325.501338 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:4c7 -> 110b86a:592170ca:9047c3f5:4c2: F#2:2/0:
+1669283325.501342 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:4c7 -> pwr 110b86a:592170ca:9047c3f5:4c2)
+1669283325.501346 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000eb0 0(control): niov 2 sz 64 => now niov 3 sz 92
+1669283325.501376 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 100 from udp/172.17.0.3:56972
+1669283325.501398 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.501415 [0]     recvUC: INFOTS(1669283325.489126306)
+1669283325.501379 [0]        tev: nn_xpack_send 92: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 0x7f7a4c000fa8:28 [ udp/172.17.0.3:35111@14 ]
+1669283325.501423 [0]     recvUC: DATA(110b86a:592170ca:9047c3f5:200c2 -> 1103e9d:bb552e58:7fa192ac:200c7 #1 L(:1c1 8620.417565) msr_in_sync(1103e9d:bb552e58:7fa192ac:200c7 out-of-sync to tlcatchup))
+1669283325.501429 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 68 from udp/172.17.0.3:56972
+1669283325.501380 [0] dq.builtin: SEDP ST0 110b86a:592170ca:9047c3f5:204 best-effort volatile reader unnamed: (default).module_test_Msg/module_test::Msg p(open) NEW (as udp/239.255.0.1:7401@14 udp/172.17.0.3:35111@14 ssm=0) QOS={user_data=0<>,topic_name="module_test_Msg",type_name="module_test::Msg",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,type_consistency_enforcement=0:00010,data_representation=1(2),type_information=[MINIMAL 02e2a8cd8e8c6a3d5858e984b05a]/[COMPLETE 82060bf133aeb1cef30b8f914840],adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807}
+1669283325.501448 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.501455 [0]        tev: traffic-xmit (1) 92
+1669283325.501459 [0] dq.builtin: ref ddsi_type proxy id [MINIMAL 02e2a8cd8e8c6a3d5858e984b05a] refc 2
+1669283325.501467 [0] dq.builtin: type [MINIMAL 02e2a8cd8e8c6a3d5858e984b05a] add ep 110b86a:592170ca:9047c3f5:204
+1669283325.501471 [0] dq.builtin: ref ddsi_type proxy id [COMPLETE 82060bf133aeb1cef30b8f914840] refc 2
+1669283325.501473 [0] dq.builtin: type [COMPLETE 82060bf133aeb1cef30b8f914840] add ep 110b86a:592170ca:9047c3f5:204
+1669283325.501481 [0]        tev: acknack 1103e9d:bb552e58:7fa192ac:200c7 -> 110b86a:592170ca:9047c3f5:200c2: F#2:2/0:
+1669283325.501486 [0]        tev: send acknack(rd 1103e9d:bb552e58:7fa192ac:200c7 -> pwr 110b86a:592170ca:9047c3f5:200c2)
+1669283325.501598 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c000b60 0(control): niov 0 sz 0 => now niov 2 sz 64
+1669283325.501457 [0]     recvUC: HEARTBEAT(#4:1..1  L(:1c1 8620.417615)110b86a:592170ca:9047c3f5:200c2 -> 1103e9d:bb552e58:7fa192ac:200c7: 1103e9d:bb552e58:7fa192ac:200c7@1(sync))
+1669283325.501490 [0] dq.builtin:  => EVERYONE
+1669283325.501655 [0]        tev: nn_xpack_send 64: 0x7f7a5c000b6c:20 0x7f7a4c000c48:44 [ udp/172.17.0.3:35111@14 ]
+1669283325.501726 [0]        tev: traffic-xmit (1) 64
+1669283325.501697 [0] dq.builtin: match_proxy_reader_with_writers(prd 110b86a:592170ca:9047c3f5:204) scanning all wrs of topic module_test_Msg
+1669283325.501790 [0] dq.builtin: data(builtin, vendor 1.16): 110b86a:592170ca:9047c3f5:200c2 #1: ST0 DCPSParticipantMessage/ParticipantMessageData:{110b86a:592170ca:9047c3f5:1}:1<0>
+1669283325.501806 [0] dq.builtin:  PMD ST0 pp 110b86a:592170ca:9047c3f5 kind 1 data 1
+1669283325.503658 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 64 from udp/172.17.0.3:56972
+1669283325.503667 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.503677 [0]     recvUC: ACKNACK(#0:1/0: L(:1c1 8620.419834) 110b86a:592170ca:9047c3f5:3c7 -> 1103e9d:bb552e58:7fa192ac:3c2 setting-has-replied-to-hb preemptive-nack whc-empty defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:3c2 -> 110b86a:592170ca:9047c3f5:3c7 - queue for transmit
+1669283325.503702 [0]     recvUC: non-timed queue now has 1 items
+1669283325.503718 [0]     recvUC: )
+1669283325.503738 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c0013a0 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283325.503782 [0]        tev: nn_xpack_send 68: 0x7f7a5c000b6c:20 0x7f7a4c001488:48 [ udp/172.17.0.3:35111@14 ]
+1669283325.503798 [0]        tev: traffic-xmit (1) 68
+1669283325.503895 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 64 from udp/172.17.0.3:56972
+1669283325.503904 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.503910 [0]     recvUC: ACKNACK(F#1:1/0: L(:1c1 8620.420072) 110b86a:592170ca:9047c3f5:3c7 -> 1103e9d:bb552e58:7fa192ac:3c2 happy-now)
+1669283325.504484 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 64 from udp/172.17.0.3:56972
+1669283325.504491 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.504498 [0]     recvUC: ACKNACK(#0:1/0: L(:1c1 8620.420659) 110b86a:592170ca:9047c3f5:4c7 -> 1103e9d:bb552e58:7fa192ac:4c2 preemptive-nack rebase defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:4c2 -> 110b86a:592170ca:9047c3f5:4c7 - queue for transmit
+1669283325.504516 [0]     recvUC: non-timed queue now has 1 items
+1669283325.504544 [0]     recvUC: )
+1669283325.504554 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c001570 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283325.504596 [0]        tev: nn_xpack_send 68: 0x7f7a5c000b6c:20 0x7f7a4c001658:48 [ udp/172.17.0.3:35111@14 ]
+1669283325.504612 [0]        tev: traffic-xmit (1) 68
+1669283325.504748 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 96 from udp/172.17.0.3:56972
+1669283325.504758 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.504765 [0]     recvUC: ACKNACK(#0:1/0: L(:1c1 8620.420925) 110b86a:592170ca:9047c3f5:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 preemptive-nack rebase defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:200c2 -> 110b86a:592170ca:9047c3f5:200c7 - queue for transmit
+1669283325.504783 [0]     recvUC: non-timed queue now has 1 items
+1669283325.504811 [0]     recvUC: )
+1669283325.504818 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c001740 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283325.504822 [0]     recvUC: ACKNACK(F#1:1/1:1 110b86a:592170ca:9047c3f5:4c7 -> 1103e9d:bb552e58:7fa192ac:4c2 complying RX1non-timed queue now has 1 items
+1669283325.504868 [0]     recvUC:  rexmit#1 maxseq:1<1<=1defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:4c2 -> 110b86a:592170ca:9047c3f5:4c7 - queue for transmit
+1669283325.504896 [0]     recvUC: )
+1669283325.504912 [0]     recvUC: send_deferred_heartbeat: 1a0c9c70da5a5572 -> 5990b0821cce04f1 - queue for transmit
+1669283325.504874 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c001910 0(rexmit(1103e9d:bb552e58:7fa192ac:4c2:#1/1)): niov 2 sz 68 => now niov 4 sz 396
+1669283325.505029 [0]     recvUC: non-timed queue now has 1 items
+1669283325.505065 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c001ae0 0(control): niov 4 sz 396 => now niov 5 sz 428
+1669283325.505105 [0]        tev: nn_xpack_send 428: 0x7f7a5c000b6c:20 0x7f7a4c001828:48 0x7f7a4c001a08:36 0x55d1fdab73f4:292 0x7f7a4c001bd8:32 [ udp/172.17.0.3:35111@14 ]
+1669283325.505121 [0]        tev: traffic-xmit (1) 428
+1669283325.505346 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 96 from udp/172.17.0.3:56972
+1669283325.505365 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.505392 [0]     recvUC: ACKNACK(F#1:7/1:1 L(:1c1 8620.421532) 110b86a:592170ca:9047c3f5:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 complying RX7non-timed queue now has 1 items
+1669283325.505399 [0]     recvUC:  rexmit#1 maxseq:7<7<=7defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:200c2 -> 110b86a:592170ca:9047c3f5:200c7 - queue for transmit
+1669283325.505404 [0]     recvUC: )
+1669283325.505403 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c001c60 0(rexmit(1103e9d:bb552e58:7fa192ac:200c2:#7/1)): niov 0 sz 0 => now niov 3 sz 100
+1669283325.505425 [0]     recvUC: ACKNACK(#0:1/0: 110b86a:592170ca:9047c3f5:300c4 -> 1103e9d:bb552e58:7fa192ac:300c3 setting-has-replied-to-hb preemptive-nack whc-empty defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:300c3 -> 110b86a:592170ca:9047c3f5:300c4 - queue for transmit
+1669283325.505439 [0]     recvUC: non-timed queue now has 1 items
+1669283325.505448 [0]     recvUC: non-timed queue now has 2 items
+1669283325.505452 [0]     recvUC: )
+1669283325.505459 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 92 from udp/172.17.0.3:56972
+1669283325.505464 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.505464 [0]        tev: nn_xpack_send 100: 0x7f7a5c000b6c:20 0x7f7a4c001d48:52 0x7f7a5c000c9c:28 [ udp/172.17.0.3:35111@14 ]
+1669283325.505488 [0]        tev: traffic-xmit (1) 100
+1669283325.505473 [0]     recvUC: ACKNACK(F#2:2/0: L(:1c1 8620.421631) 110b86a:592170ca:9047c3f5:4c7 -> 1103e9d:bb552e58:7fa192ac:4c2 setting-has-replied-to-hb happy-now)
+1669283325.505494 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c001de0 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283325.505499 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c001f60 0(control): niov 2 sz 68 => now niov 3 sz 100
+1669283325.505509 [0]        tev: nn_xpack_send 100: 0x7f7a5c000b6c:20 0x7f7a4c001ec8:48 0x7f7a4c002058:32 [ udp/172.17.0.3:35111@14 ]
+1669283325.505510 [0]     recvUC: ACKNACK(#0:1/0: 110b86a:592170ca:9047c3f5:301c4 -> 1103e9d:bb552e58:7fa192ac:301c3 setting-has-replied-to-hb preemptive-nack whc-empty defer_heartbeat_to_peer: 1103e9d:bb552e58:7fa192ac:301c3 -> 110b86a:592170ca:9047c3f5:301c4 - queue for transmit
+1669283325.505535 [0]     recvUC: non-timed queue now has 1 items
+1669283325.505562 [0]     recvUC: )
+1669283325.505512 [0]        tev: traffic-xmit (1) 100
+1669283325.505582 [0]        tev: xpack_addmsg 0x7f7a5c000b60 0x7f7a4c0020e0 0(control): niov 0 sz 0 => now niov 2 sz 68
+1669283325.505614 [0]        tev: nn_xpack_send 68: 0x7f7a5c000b6c:20 0x7f7a4c0021c8:48 [ udp/172.17.0.3:35111@14 ]
+1669283325.505618 [0]        tev: traffic-xmit (1) 68
+1669283325.505759 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 64 from udp/172.17.0.3:56972
+1669283325.505767 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.505776 [0]     recvUC: ACKNACK(F#2:8/0: L(:1c1 8620.421935) 110b86a:592170ca:9047c3f5:200c7 -> 1103e9d:bb552e58:7fa192ac:200c2 setting-has-replied-to-hb happy-now)
+1669283325.505862 [0]     recvUC: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 92 from udp/172.17.0.3:56972
+1669283325.505870 [0]     recvUC: INFODST(1103e9d:bb552e58:7fa192ac)
+1669283325.505875 [0]     recvUC: ACKNACK(F#1:1/0: L(:1c1 8620.422037) 110b86a:592170ca:9047c3f5:300c4 -> 1103e9d:bb552e58:7fa192ac:300c3 happy-now)
+1669283325.505883 [0]     recvUC: ACKNACK(F#1:1/0: 110b86a:592170ca:9047c3f5:301c4 -> 1103e9d:bb552e58:7fa192ac:301c3 happy-now)
+1669283325.533314 [0]       recv: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 96 from udp/172.17.0.3:56972
+1669283325.533339 [0]       recv: INFOTS(1669283325.533026389)
+1669283325.533362 [0]       recv: DATA(110b86a:592170ca:9047c3f5:4c2 -> 0:0:0:0 #2 L(:1c1 8620.449504))
+1669283325.533397 [0] dq.builtin: data(builtin, vendor 1.16): 110b86a:592170ca:9047c3f5:4c2 #2: ST3 DCPSSubscription/SubscriptionBuiltinTopicData:{endpoint_guid={110b86a:592170ca:9047c3f5:204}}
+1669283325.533440 [0] dq.builtin: SEDP ST3 110b86a:592170ca:9047c3f5:204 ddsi_delete_proxy_reader (110b86a:592170ca:9047c3f5:204)  => EVERYONE
+1669283325.533501 [0] dq.builtin: unreg proxy guid 110b86a:592170ca:9047c3f5:204 ddsi_type id [MINIMAL 02e2a8cd8e8c6a3d5858e984b05a]
+1669283325.533510 [0] dq.builtin: unreg proxy guid 110b86a:592170ca:9047c3f5:204 ddsi_type id [COMPLETE 82060bf133aeb1cef30b8f914840]
+1669283325.533520 [0] dq.builtin: - deleting
+1669283325.533546 [0] dq.builtin:   delete
+1669283325.533561 [0]         gc: gc 0x7f7a5800c330: not yet, shortsleep
+1669283325.533819 [0]     recvMC: thread_cputime 0.000000000
+1669283325.533894 [0]       recv: HDR(110b86a:592170ca:9047c3f5 vendor 1.16) len 96 from udp/172.17.0.3:56972
+1669283325.533904 [0]       recv: INFOTS(1669283325.533736278)
+1669283325.533928 [0]       recv: DATA(110b86a:592170ca:9047c3f5:100c2 -> 0:0:0:0 #2)
+1669283325.533942 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #2: ST3 /ParticipantBuiltinTopicData:{participant_guid={110b86a:592170ca:9047c3f5:1c1}}
+1669283325.533995 [0] dq.builtin: SPDP ST3 110b86a:592170ca:9047c3f5:1c1ddsi_delete_proxy_participant_by_guid(110b86a:592170ca:9047c3f5:1c1) - deleting
+1669283325.534003 [0] dq.builtin:  => EVERYONE
+1669283325.534011 [0] dq.builtin: delete_ppt(110b86a:592170ca:9047c3f5:1c1) - deleting dependent proxy participants
+1669283325.534019 [0] dq.builtin: delete_ppt(110b86a:592170ca:9047c3f5:1c1) - deleting endpoints
+1669283325.534022 [0] dq.builtin: ddsi_delete_proxy_reader (110b86a:592170ca:9047c3f5:204) - unknown
+1669283325.534028 [0] dq.builtin: ddsi_delete_proxy_reader (110b86a:592170ca:9047c3f5:301c4) - deleting
+1669283325.534037 [0] dq.builtin: ddsi_delete_proxy_writer (110b86a:592170ca:9047c3f5:301c3) - deleting
+1669283325.534045 [0] dq.builtin: ddsi_delete_proxy_reader (110b86a:592170ca:9047c3f5:300c4) - deleting
+1669283325.534051 [0] dq.builtin: ddsi_delete_proxy_writer (110b86a:592170ca:9047c3f5:300c3) - deleting
+1669283325.534057 [0] dq.builtin: ddsi_delete_proxy_reader (110b86a:592170ca:9047c3f5:200c7) - deleting
+1669283325.534070 [0] dq.builtin: ddsi_delete_proxy_writer (110b86a:592170ca:9047c3f5:200c2) - deleting
+1669283325.534076 [0] dq.builtin: ddsi_delete_proxy_reader (110b86a:592170ca:9047c3f5:4c7) - deleting
+1669283325.534083 [0] dq.builtin: ddsi_delete_proxy_writer (110b86a:592170ca:9047c3f5:4c2) - deleting
+1669283325.534088 [0] dq.builtin: ddsi_delete_proxy_reader (110b86a:592170ca:9047c3f5:3c7) - deleting
+1669283325.534093 [0] dq.builtin: ddsi_delete_proxy_writer (110b86a:592170ca:9047c3f5:3c2) - deleting
+1669283325.534100 [0] dq.builtin: ddsi_delete_proxy_reader (110b86a:592170ca:9047c3f5:100c7) - deleting
+1669283325.534105 [0] dq.builtin:  delete
+1669283325.534675 [0]         gc: gc 0x7f7a5800c330: deleting
+1669283325.534684 [0]         gc: gc_delete_proxy_reader (0x7f7a5800c330, 110b86a:592170ca:9047c3f5:204)
+1669283325.534690 [0]         gc: unref ddsi_type id [MINIMAL 02e2a8cd8e8c6a3d5858e984b05a] refc 1 
+1669283325.534693 [0]         gc: unref ddsi_type id [COMPLETE 82060bf133aeb1cef30b8f914840] refc 1 
+1669283325.534697 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=12
+1669283325.534711 [0]         gc: gc 0x7f7a5800c560: deleting
+1669283325.534715 [0]         gc: gc_delete_proxy_reader (0x7f7a5800c560, 110b86a:592170ca:9047c3f5:301c4)
+1669283325.534728 [0]         gc: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283325.534739 [0]         gc: reduced nlocs=2
+1669283325.534743 [0]         gc: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.534746 [0]         gc: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.534749 [0]         gc: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283325.534752 [0]         gc:                                                                   a
+1669283325.534756 [0]         gc:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283325.534759 [0]         gc:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283325.534761 [0]         gc:   best = 0
+1669283325.534763 [0]         gc:   simple udp/172.17.0.2:50032@14
+1669283325.534768 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:301c3): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283325.534772 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=11
+1669283325.534776 [0]         gc: gc 0x7f7a5800c790: deleting
+1669283325.534778 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800c790, 110b86a:592170ca:9047c3f5:301c3)
+1669283325.534797 [0]         gc: gc 0x7f7a5800c9c0: deleting
+1669283325.534818 [0]         gc: gc_delete_proxy_reader (0x7f7a5800c9c0, 110b86a:592170ca:9047c3f5:300c4)
+1669283325.534812 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800c790, 110b86a:592170ca:9047c3f5:301c3)
+1669283325.534829 [0]         gc: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283325.534875 [0]         gc: reduced nlocs=2
+1669283325.534882 [0]         gc: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.534885 [0]         gc: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.534888 [0]         gc: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283325.534890 [0]         gc:                                                                   a
+1669283325.534893 [0]         gc:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283325.534896 [0]         gc:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283325.534898 [0]         gc:   best = 0
+1669283325.534900 [0]         gc:   simple udp/172.17.0.2:50032@14
+1669283325.534904 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:300c3): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283325.534907 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=10
+1669283325.534910 [0]         gc: gc 0x7f7a5800cbf0: deleting
+1669283325.534912 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800cbf0, 110b86a:592170ca:9047c3f5:300c3)
+1669283325.534927 [0]         gc: gc 0x7f7a5800ce20: deleting
+1669283325.534939 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800cbf0, 110b86a:592170ca:9047c3f5:300c3)
+1669283325.534943 [0]         gc: gc_delete_proxy_reader (0x7f7a5800ce20, 110b86a:592170ca:9047c3f5:200c7)
+1669283325.534976 [0]         gc: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283325.534980 [0]         gc: reduced nlocs=2
+1669283325.534983 [0]         gc: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.534986 [0]         gc: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.534989 [0]         gc: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283325.534991 [0]         gc:                                                                   a
+1669283325.534994 [0]         gc:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283325.534997 [0]         gc:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283325.534999 [0]         gc:   best = 0
+1669283325.535001 [0]         gc:   simple udp/172.17.0.2:50032@14
+1669283325.535005 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:200c2): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283325.535009 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=9
+1669283325.535016 [0]         gc: gc 0x7f7a5800d050: deleting
+1669283325.535019 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800d050, 110b86a:592170ca:9047c3f5:200c2)
+1669283325.535035 [0]         gc: gc 0x7f7a5800d280: deleting
+1669283325.535064 [0]         gc: gc_delete_proxy_reader (0x7f7a5800d280, 110b86a:592170ca:9047c3f5:4c7)
+1669283325.535043 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800d050, 110b86a:592170ca:9047c3f5:200c2)
+1669283325.535077 [0]         gc: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283325.535102 [0]         gc: reduced nlocs=2
+1669283325.535107 [0]         gc: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.535111 [0]         gc: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.535114 [0]         gc: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283325.535117 [0]         gc:                                                                   a
+1669283325.535120 [0]         gc:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283325.535122 [0]         gc:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283325.535124 [0]         gc:   best = 0
+1669283325.535126 [0]         gc:   simple udp/172.17.0.2:50032@14
+1669283325.535135 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:4c2): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283325.535147 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=8
+1669283325.535167 [0]         gc: gc 0x7f7a5800d4b0: deleting
+1669283325.535170 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800d4b0, 110b86a:592170ca:9047c3f5:4c2)
+1669283325.535187 [0]         gc: gc 0x7f7a5800d6e0: deleting
+1669283325.535194 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800d4b0, 110b86a:592170ca:9047c3f5:4c2)
+1669283325.535195 [0]         gc: gc_delete_proxy_reader (0x7f7a5800d6e0, 110b86a:592170ca:9047c3f5:3c7)
+1669283325.535226 [0]         gc: setcover: all_addrs udp/239.255.0.1:7400@14 udp/172.17.0.2:50032@14
+1669283325.535241 [0]         gc: reduced nlocs=2
+1669283325.535245 [0]         gc: nloopback = 0, nlocs = 2, redundant_networking = 0
+1669283325.535249 [0]         gc: rdidx 0 lidx udp/172.17.0.2:50032@14 0 -> 0
+1669283325.535252 [0]         gc: rdidx 0 lidx udp/239.255.0.1:7400@14 1 -> 8
+1669283325.535255 [0]         gc:                                                                   a
+1669283325.535257 [0]         gc:   loc  0 = udp/172.17.0.2:50032@14                           1 { +u  }
+1669283325.535260 [0]         gc:   loc  1 = udp/239.255.0.1:7400@14                           2 { +1  }
+1669283325.535262 [0]         gc:   best = 0
+1669283325.535264 [0]         gc:   simple udp/172.17.0.2:50032@14
+1669283325.535268 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:3c2): udp/172.17.0.2:50032@14 (burst size 4294901760 rexmit 283990)
+1669283325.535271 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=7
+1669283325.535275 [0]         gc: gc 0x7f7a5800d910: deleting
+1669283325.535277 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800d910, 110b86a:592170ca:9047c3f5:3c2)
+1669283325.535293 [0]         gc: gc 0x7f7a5800db40: deleting
+1669283325.535297 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800d910, 110b86a:592170ca:9047c3f5:3c2)
+1669283325.535298 [0]         gc: gc_delete_proxy_reader (0x7f7a5800db40, 110b86a:592170ca:9047c3f5:100c7)
+1669283325.535323 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=6
+1669283325.535328 [0]         gc: gc 0x7f7a5800dd70: deleting
+1669283325.535330 [0]         gc: gc_delete_proxy_participant(0x7f7a5800dd70, 110b86a:592170ca:9047c3f5:1c1)
+1669283325.535333 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=5
+1669283325.535335 [0]         gc: gc 0x7f7a5800c330: deleting
+1669283325.535338 [0]         gc: gc 0x7f7a5800c790: deleting
+1669283325.535340 [0]         gc: gc_delete_proxy_writer (0x7f7a5800c790, 110b86a:592170ca:9047c3f5:301c3)
+1669283325.535348 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:301c4, 2): 1 -> 2
+1669283325.535368 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=4
+1669283325.535374 [0]         gc: gc 0x7f7a5800cbf0: deleting
+1669283325.535377 [0]         gc: gc_delete_proxy_writer (0x7f7a5800cbf0, 110b86a:592170ca:9047c3f5:300c3)
+1669283325.535381 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:300c4, 2): 1 -> 2
+1669283325.535413 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=3
+1669283325.535433 [0]         gc: gc 0x7f7a5800d050: deleting
+1669283325.535437 [0]         gc: gc_delete_proxy_writer (0x7f7a5800d050, 110b86a:592170ca:9047c3f5:200c2)
+1669283325.535442 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:200c7, 3): 1 -> 3
+1669283325.535459 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=2
+1669283325.535465 [0]         gc: gc 0x7f7a5800d4b0: deleting
+1669283325.535468 [0]         gc: gc_delete_proxy_writer (0x7f7a5800d4b0, 110b86a:592170ca:9047c3f5:4c2)
+1669283325.535473 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:4c7, 3): 1 -> 3
+1669283325.535492 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=1
+1669283325.535498 [0]         gc: gc 0x7f7a5800d910: deleting
+1669283325.535515 [0]         gc: gc_delete_proxy_writer (0x7f7a5800d910, 110b86a:592170ca:9047c3f5:3c2)
+1669283325.535522 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:3c7, 2): 1 -> 2
+1669283325.535536 [0]         gc: ddsi_unref_proxy_participant(110b86a:592170ca:9047c3f5:1c1): refc=0, freeing
+1669283325.535542 [0]         gc: lease_unregister(l 0x7f7a58007050 guid 110b86a:592170ca:9047c3f5:1c1)
+1669283325.535547 [0]         gc: lease_free(l 0x7f7a58007050 guid 110b86a:592170ca:9047c3f5:1c1)
+1669283325.535550 [0]         gc: lease_free(l 0x7f7a58006c30 guid 110b86a:592170ca:9047c3f5:1c1)
+1669283325.535559 [0]         gc: ddsi_remove_deleted_participant_guid(110b86a:592170ca:9047c3f5:1c1 for_what=3)
+1669283325.535565 [0]         gc: gc 0x7f7a5800c9c0: deleting
+1669283325.535568 [0]         gc: gc 0x7f7a5800c560: deleting
+1669283325.566226 [0]     recvUC: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 96 from udp/172.17.0.2:49475
+1669283325.566244 [0]     recvUC: INFOTS(1669283325.565856638)
+1669283325.566264 [0]     recvUC: DATA(110aac1:5eae4d7:3b38280b:3c2 -> 0:0:0:0 #2 L(:1c1 8620.482410))
+1669283325.566324 [0] dq.builtin: data(builtin, vendor 1.16): 110aac1:5eae4d7:3b38280b:3c2 #2: ST3 DCPSPublication/PublicationBuiltinTopicData:{endpoint_guid={110aac1:5eae4d7:3b38280b:203}}
+1669283325.566337 [0] dq.builtin: SEDP ST3 110aac1:5eae4d7:3b38280b:203 ddsi_delete_proxy_writer (110aac1:5eae4d7:3b38280b:203) - deleting
+1669283325.566344 [0] dq.builtin:  => EVERYONE
+1669283325.566363 [0] dq.builtin: unreg proxy guid 110aac1:5eae4d7:3b38280b:203 ddsi_type id [MINIMAL 02e2a8cd8e8c6a3d5858e984b05a]
+1669283325.566367 [0] dq.builtin: unreg proxy guid 110aac1:5eae4d7:3b38280b:203 ddsi_type id [COMPLETE 82060bf133aeb1cef30b8f914840]
+1669283325.566391 [0] dq.builtin:   delete
+1669283325.566402 [0]         gc: gc 0x7f7a5800c790: deleting
+1669283325.566409 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800c790, 110aac1:5eae4d7:3b38280b:203)
+1669283325.566451 [0]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800c790, 110aac1:5eae4d7:3b38280b:203)
+1669283325.566525 [0]    dq.user: thread_cputime 0.000000000
+1669283325.566548 [0]         gc: gc 0x7f7a5800c790: deleting
+1669283325.566560 [0]         gc: gc_delete_proxy_writer (0x7f7a5800c790, 110aac1:5eae4d7:3b38280b:203)
+1669283325.566571 [0]         gc: unref ddsi_type id [MINIMAL 02e2a8cd8e8c6a3d5858e984b05a] refc 0 remove type 
+1669283325.566577 [0]         gc: unref ddsi_type id [COMPLETE 82060bf133aeb1cef30b8f914840] refc 0 remove type 
+1669283325.566582 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=12
+1669283325.566611 [0]         gc: gc 0x7f7a5800c560: deleting
+1669283325.566821 [0]       recv: HDR(110aac1:5eae4d7:3b38280b vendor 1.16) len 96 from udp/172.17.0.2:49475
+1669283325.566847 [0]       recv: INFOTS(1669283325.566625923)
+1669283325.566880 [0]       recv: DATA(110aac1:5eae4d7:3b38280b:100c2 -> 0:0:0:0 #2)
+1669283325.566898 [0] dq.builtin: data(builtin, vendor 1.16): 0:0:0:0 #2: ST3 /ParticipantBuiltinTopicData:{participant_guid={110aac1:5eae4d7:3b38280b:1c1}}
+1669283325.566908 [0] dq.builtin: SPDP ST3 110aac1:5eae4d7:3b38280b:1c1ddsi_delete_proxy_participant_by_guid(110aac1:5eae4d7:3b38280b:1c1) - deleting
+1669283325.566912 [0] dq.builtin:  => EVERYONE
+1669283325.566934 [0] dq.builtin: delete_ppt(110aac1:5eae4d7:3b38280b:1c1) - deleting dependent proxy participants
+1669283325.566940 [0] dq.builtin: delete_ppt(110aac1:5eae4d7:3b38280b:1c1) - deleting endpoints
+1669283325.566944 [0] dq.builtin: ddsi_delete_proxy_reader (110aac1:5eae4d7:3b38280b:301c4) - deleting
+1669283325.566965 [0] dq.builtin: ddsi_delete_proxy_writer (110aac1:5eae4d7:3b38280b:301c3) - deleting
+1669283325.566973 [0] dq.builtin: ddsi_delete_proxy_reader (110aac1:5eae4d7:3b38280b:300c4) - deleting
+1669283325.566976 [0]         gc: gc 0x7f7a5800c330: not yet, shortsleep
+1669283325.566980 [0] dq.builtin: ddsi_delete_proxy_writer (110aac1:5eae4d7:3b38280b:300c3) - deleting
+1669283325.566991 [0] dq.builtin: ddsi_delete_proxy_reader (110aac1:5eae4d7:3b38280b:200c7) - deleting
+1669283325.566999 [0] dq.builtin: ddsi_delete_proxy_writer (110aac1:5eae4d7:3b38280b:200c2) - deleting
+1669283325.567004 [0] dq.builtin: ddsi_delete_proxy_reader (110aac1:5eae4d7:3b38280b:4c7) - deleting
+1669283325.567008 [0] dq.builtin: ddsi_delete_proxy_writer (110aac1:5eae4d7:3b38280b:4c2) - deleting
+1669283325.567011 [0] dq.builtin: ddsi_delete_proxy_reader (110aac1:5eae4d7:3b38280b:3c7) - deleting
+1669283325.567015 [0] dq.builtin: ddsi_delete_proxy_writer (110aac1:5eae4d7:3b38280b:3c2) - deleting
+1669283325.567019 [0] dq.builtin: ddsi_delete_proxy_reader (110aac1:5eae4d7:3b38280b:100c7) - deleting
+1669283325.567024 [0] dq.builtin:  delete
+1669283325.568142 [0]         gc: gc 0x7f7a5800c330: deleting
+1669283325.568171 [0]         gc: gc_delete_proxy_reader (0x7f7a5800c330, 110aac1:5eae4d7:3b38280b:301c4)
+1669283325.568181 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:301c3): (burst size 4294901760 rexmit 1048576)
+1669283325.568198 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=11
+1669283325.568216 [0]         gc: gc 0x7f7a5800c790: deleting
+1669283325.568219 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800c790, 110aac1:5eae4d7:3b38280b:301c3)
+1669283325.568238 [0]         gc: gc 0x7f7a5800cbf0: deleting
+1669283325.568242 [0]         gc: gc_delete_proxy_reader (0x7f7a5800cbf0, 110aac1:5eae4d7:3b38280b:300c4)
+1669283325.568263 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:300c3): (burst size 4294901760 rexmit 1048576)
+1669283325.568266 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=10
+1669283325.568269 [0]         gc: gc 0x7f7a5800ce20: deleting
+1669283325.568271 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800ce20, 110aac1:5eae4d7:3b38280b:300c3)
+1669283325.568273 [0]         gc: gc 0x7f7a5800d050: deleting
+1669283325.568275 [0]         gc: gc_delete_proxy_reader (0x7f7a5800d050, 110aac1:5eae4d7:3b38280b:200c7)
+1669283325.568278 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:200c2): (burst size 4294901760 rexmit 1048576)
+1669283325.568281 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=9
+1669283325.568283 [0]         gc: gc 0x7f7a5800d280: deleting
+1669283325.568287 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800d280, 110aac1:5eae4d7:3b38280b:200c2)
+1669283325.568292 [0]         gc: gc 0x7f7a5800d4b0: deleting
+1669283325.568294 [0]         gc: gc_delete_proxy_reader (0x7f7a5800d4b0, 110aac1:5eae4d7:3b38280b:4c7)
+1669283325.568300 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:4c2): (burst size 4294901760 rexmit 1048576)
+1669283325.568354 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=8
+1669283325.568361 [0]         gc: gc 0x7f7a5800d6e0: deleting
+1669283325.568365 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800d6e0, 110aac1:5eae4d7:3b38280b:4c2)
+1669283325.568369 [0]         gc: gc 0x7f7a5800d910: deleting
+1669283325.568373 [0]         gc: gc_delete_proxy_reader (0x7f7a5800d910, 110aac1:5eae4d7:3b38280b:3c7)
+1669283325.568378 [0]         gc: ddsi_rebuild_writer_addrset(1103e9d:bb552e58:7fa192ac:3c2): (burst size 4294901760 rexmit 1048576)
+1669283325.568382 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=7
+1669283325.568387 [0]         gc: gc 0x7f7a5800db40: deleting
+1669283325.568390 [0]         gc: gc_delete_proxy_writer_dqueue(0x7f7a5800db40, 110aac1:5eae4d7:3b38280b:3c2)
+1669283325.568393 [0]         gc: gc 0x7f7a5800dd70: deleting
+1669283325.568396 [0]         gc: gc_delete_proxy_reader (0x7f7a5800dd70, 110aac1:5eae4d7:3b38280b:100c7)
+1669283325.568399 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=6
+1669283325.568402 [0]         gc: gc 0x7f7a5800dfa0: deleting
+1669283325.568405 [0]         gc: gc_delete_proxy_participant(0x7f7a5800dfa0, 110aac1:5eae4d7:3b38280b:1c1)
+1669283325.568423 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=5
+1669283325.568293 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800c790, 110aac1:5eae4d7:3b38280b:301c3)
+1669283325.568475 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800ce20, 110aac1:5eae4d7:3b38280b:300c3)
+1669283325.568507 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800d280, 110aac1:5eae4d7:3b38280b:200c2)
+1669283325.568514 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800d6e0, 110aac1:5eae4d7:3b38280b:4c2)
+1669283325.568486 [0]         gc: gc 0x7f7a5800c790: deleting
+1669283325.568516 [0] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x7f7a5800db40, 110aac1:5eae4d7:3b38280b:3c2)
+1669283325.568537 [0]         gc: gc_delete_proxy_writer (0x7f7a5800c790, 110aac1:5eae4d7:3b38280b:301c3)
+1669283325.568562 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:301c4, 3): 2 -> 3
+1669283325.568582 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=4
+1669283325.568588 [0]         gc: gc 0x7f7a5800ce20: deleting
+1669283325.568591 [0]         gc: gc_delete_proxy_writer (0x7f7a5800ce20, 110aac1:5eae4d7:3b38280b:300c3)
+1669283325.568595 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:300c4, 3): 2 -> 3
+1669283325.568622 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=3
+1669283325.568627 [0]         gc: gc 0x7f7a5800d280: deleting
+1669283325.568630 [0]         gc: gc_delete_proxy_writer (0x7f7a5800d280, 110aac1:5eae4d7:3b38280b:200c2)
+1669283325.568634 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:200c7, 9): 3 -> 9
+1669283325.568649 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=2
+1669283325.568666 [0]         gc: gc 0x7f7a5800d6e0: deleting
+1669283325.568670 [0]         gc: gc_delete_proxy_writer (0x7f7a5800d6e0, 110aac1:5eae4d7:3b38280b:4c2)
+1669283325.568674 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:4c7, 3): 3 -> 3
+1669283325.568691 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=1
+1669283325.568710 [0]         gc: gc 0x7f7a5800db40: deleting
+1669283325.568714 [0]         gc: gc_delete_proxy_writer (0x7f7a5800db40, 110aac1:5eae4d7:3b38280b:3c2)
+1669283325.568719 [0]         gc: ddsi_update_reader_init_acknack_count (1103e9d:bb552e58:7fa192ac:3c7, 3): 2 -> 3
+1669283325.568736 [0]         gc: ddsi_unref_proxy_participant(110aac1:5eae4d7:3b38280b:1c1): refc=0, freeing
+1669283325.568756 [0]         gc: lease_unregister(l 0x7f7a58001410 guid 110aac1:5eae4d7:3b38280b:1c1)
+1669283325.568767 [0]         gc: lease_free(l 0x7f7a58001410 guid 110aac1:5eae4d7:3b38280b:1c1)
+1669283325.568770 [0]         gc: lease_free(l 0x7f7a58001390 guid 110aac1:5eae4d7:3b38280b:1c1)
+1669283325.568778 [0]         gc: ddsi_remove_deleted_participant_guid(110aac1:5eae4d7:3b38280b:1c1 for_what=3)
+1669283325.568798 [0]         gc: gc 0x7f7a5800c560: deleting
+1669283325.568802 [0]         gc: gc 0x7f7a5800c9c0: deleting
+1669283325.591522 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:3c2) suppressed, resched in inf s (min-ack [none], avail-seq 0, xmit 0)
+1669283325.591587 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:4c2) suppressed, resched in inf s (min-ack [none], avail-seq 1, xmit 1)
+1669283325.591595 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:200c2) suppressed, resched in inf s (min-ack [none], avail-seq 7, xmit 7)
+1669283325.591599 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:300c3) suppressed, resched in inf s (min-ack [none], avail-seq 0, xmit 0)
+1669283325.591845 [0]        tev: heartbeat(wr 1103e9d:bb552e58:7fa192ac:301c3) suppressed, resched in inf s (min-ack [none], avail-seq 0, xmit 0)
+1669283326.491038 [0]        tev: thread_cputime 0.005884000
+1669283326.491128 [0]        tev: xmit spdp: no proxy reader 110b86a:592170ca:9047c3f5:100c7
+1669283326.491143 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 110b86a:592170ca:9047c3f5:100c7 (resched 1s)
+1669283327.491163 [0]        tev: thread_cputime 0.006104000
+1669283327.491239 [0]        tev: xmit spdp: no proxy reader 110b86a:592170ca:9047c3f5:100c7
+1669283327.491248 [0]        tev: xmit spdp 1103e9d:bb552e58:7fa192ac:1c1 to 110b86a:592170ca:9047c3f5:100c7 (resched 1s)
+1669283328.491421 [0]        tev: thread_cputime 0.006242000
+1669283328.491518 [0]        tev: xmit spdp: no proxy reader 110b86a:592170ca:9047c3f5:100c7

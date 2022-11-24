@@ -1,0 +1,8 @@
+<CycloneDDS>
+<Domain>
+    <Tracing>
+            <Verbosity>finest</Verbosity>
+                <OutputFile>cdds.log.${CYCLONEDDS_PID}</OutputFile>
+      </Tracing>
+</Domain>
+</CycloneDDS>
