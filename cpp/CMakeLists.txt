@@ -10,3 +10,5 @@ message(STATUS "Directory ENV{LD_LIBRARY_PATH}: $ENV{LD_LIBRARY_PATH}")
 
 
 add_subdirectory(appendable)
+add_subdirectory(mutable)
+add_subdirectory(renaming_fields)
