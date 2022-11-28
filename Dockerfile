@@ -25,8 +25,8 @@ WORKDIR /root/
 
 RUN             apt install -y python3-pip
 
-#cyclonedds C compilation and installation (version 0.10.2 last official released by 9-nov-22)
-RUN git clone https://github.com/eclipse-cyclonedds/cyclonedds.git --branch 0.10.2
+#cyclonedds C compilation and installation (version current master by 28-nov-22)
+RUN git clone https://github.com/eclipse-cyclonedds/cyclonedds.git 
 WORKDIR /root/cyclonedds/
 RUN mkdir build
 WORKDIR /root/cyclonedds/build
@@ -34,9 +34,9 @@ RUN cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lib/cyclonedds -DBUILD_EXAMPLES=ON .
 RUN cmake --build .
 RUN cmake --build . --target install
 
-#cyclonedds python compilation and installation (version 0.10.2 last official released by 9-nov-22)
+#cyclonedds python compilation and installation (version current master by 28-nov-22)
 WORKDIR /root/
-RUN git clone https://github.com/eclipse-cyclonedds/cyclonedds-python.git -b 0.10.2
+RUN git clone https://github.com/eclipse-cyclonedds/cyclonedds-python.git
 WORKDIR /root/cyclonedds-python/
 RUN         export CYCLONEDDS_HOME="/usr/local/lib/cyclonedds" \
             && python3 setup.py build \
@@ -45,34 +45,33 @@ RUN         export CYCLONEDDS_HOME="/usr/local/lib/cyclonedds" \
 #install tool killall needed for the tests (script generate_test.sh in folder cyclonedds-python-checkReservedKeyword/tests/)
 RUN apt-get install psmisc
 
-# #googletest compilation and installation
-# WORKDIR /root/
-# RUN git clone https://github.com/google/googletest.git -b release-1.12.1
-# WORKDIR /root/googletest/
-# RUN mkdir build
-# WORKDIR /root/googletest/build
-# RUN cmake ..
-# RUN make
-# RUN make install
+#googletest compilation and installation 
+WORKDIR /root/
+RUN git clone https://github.com/google/googletest.git -b release-1.12.1
+WORKDIR /root/googletest/
+RUN mkdir build
+WORKDIR /root/googletest/build
+RUN cmake ..
+RUN make
+RUN make install
 
 
 
-# #cyclonedds-cxx compilation and installation
-# WORKDIR /root/
-# RUN git clone https://github.com/eclipse-cyclonedds/cyclonedds-cxx.git --branch 0.10.1
-# WORKDIR /root/cyclonedds-cxx/
-# RUN mkdir build
-# WORKDIR /root/cyclonedds-cxx/build
-# RUN cmake   -DCMAKE_INSTALL_PREFIX=/usr/local/lib/cyclonedds-cxx \
-#             -DCMAKE_PREFIX_PATH=/usr/local/lib/cyclonedds \
-# #If I compile with the test of gtest appears the compilation error issue 252
-# #https://github.com/eclipse-cyclonedds/cyclonedds-cxx/issues/252
-# #            -DBUILD_TESTING=ON \
-#             -DBUILD_EXAMPLES=ON \
-#             -DCMAKE_BUILD_TYPE=Debug \
-#             ..
-# RUN cmake --build .
-# RUN cmake --build . --target install
+#cyclonedds-cxx compilation and installation (version current master by 28-nov-22)
+WORKDIR /root/
+RUN git clone https://github.com/eclipse-cyclonedds/cyclonedds-cxx.git 
+WORKDIR /root/cyclonedds-cxx/
+RUN mkdir build
+WORKDIR /root/cyclonedds-cxx/build
+RUN cmake   -DCMAKE_INSTALL_PREFIX=/usr/local/lib/cyclonedds-cxx \
+            -DCMAKE_PREFIX_PATH=/usr/local/lib/cyclonedds \
+            -DBUILD_EXAMPLES=ON \
+            -DCMAKE_BUILD_TYPE=Debug \
+            -DENABLE_TOPIC_DISCOVERY=ON \
+            -DENABLE_TYPE_DISCOVERY=ON \
+            ..
+RUN cmake --build .
+RUN cmake --build . --target install
 
 # RUN useradd -ms /bin/bash jasorian
 #To continue working with the new created user 

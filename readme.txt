@@ -1,5 +1,6 @@
 Using container in docker hub:
-capgeminigit/nearshorespain_repo:cyclonedds-python_issue_105_v2
+capgeminigit/nearshorespain_repo:cyclonedds-python_issue_105_v3
+  - current master version cyclonedds, cyclonedds-cxx y cyclonedds-python (28-nov-22)
 
 cyclonedds version:
 git clone https://github.com/eclipse-cyclonedds/cyclonedds.git --branch 0.10.2
