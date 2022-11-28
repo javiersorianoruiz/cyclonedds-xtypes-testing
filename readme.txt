@@ -78,3 +78,17 @@ make
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/cyclonedds-cxx/lib/
 
 export CYCLONEDDS_URI=/app/cyclonedds-xtypes-testing/debug_dds.xml
+
+
+------------------------------------------
+
+--------------- C XTypes Testing: -------------------------
+
+28-nov-22 starting
+
+Used the current master version of cyclonedds downloaded this very day.
+
+compilation with gnu tool make, writing by myself the Makefile
+
+compilation IDL:
+ /usr/local/lib/cyclonedds/bin/idlc  -Wno-implicit-extensibility -o `pwd` `pwd`/HelloWorldData.idl

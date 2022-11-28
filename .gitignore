@@ -2,3 +2,5 @@ build/
 module_test/
 test.hpp
 test.cpp
+cyclonedds/
+cyclonedds-cxx/
