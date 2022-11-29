@@ -1,0 +1,54 @@
+/*
+ * Copyright(c) 2006 to 2020 ZettaScale Technology and others
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0, or the Eclipse Distribution License
+ * v. 1.0 which is available at
+ * http://www.eclipse.org/org/documents/edl-v10.php.
+ *
+ * SPDX-License-Identifier: EPL-2.0 OR BSD-3-Clause
+ */
+
+//Test 1: Works fine?????, userID == 0 in the subscriber2
+module module_test
+{
+  @topic
+  @appendable  
+  //@mutable
+  @autoid(HASH)
+  struct Msg
+  {
+    long userID;
+    string message;
+  };
+};
+
+//Test 2: Works fine?????, userID == 0 in the subscriber2
+// module module_test {
+//     @topic
+//    //@appendable
+//     @mutable
+//     @autoid(HASH)
+//     struct Msg
+//     {
+//         @hashid
+//         long userID;
+//         @hashid
+//         string message;
+//     };
+// };
+
+//Test 3: Works wrong, subscriber2 doesn't receive this message
+// module module_test {
+//     @topic
+//    //@appendable
+//     @mutable
+//     @autoid(SEQUENTIAL)
+//     struct Msg
+//     {
+//         @id(1) long userID;
+//         @id(2) string message;
+//     };
+// };
+

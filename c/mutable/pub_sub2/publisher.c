@@ -49,11 +49,12 @@ int main (int argc, char ** argv)
 
   /* Create a message to write. */
   msg.userID = 1;
-  msg.message = "Hello World";
   msg.extra_value = 222;
+  msg.message = "Hello World";
+  
 
   printf ("=== [Publisher]  Writing : ");
-  printf ("Message (%"PRId32", message: %s , extra_value: %d)\n", msg.userID, msg.message,msg.extra_value);
+  printf ("Message (%"PRId32", extra_value: %d , message: %s)\n", msg.userID, msg.extra_value, msg.message);
   fflush (stdout);
 
   rc = dds_write (writer, &msg);
