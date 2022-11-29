@@ -17,8 +17,8 @@ BUILD_DIR = build
 IDL_FILE = test.idl
 
 #Name binaries and files to be compile
-TARGET_PUBLISHER = appendable_publisher1
-TARGET_SUBSCRIBER = appendable_subscriber1
+TARGET_PUBLISHER = appendable_publisher2
+TARGET_SUBSCRIBER = appendable_subscriber2
 SRC_PUBLISHER = publisher.c
 SRC_SUBSCRIBER= subscriber.c
 OBJ_PUBLISHER = $(IDL_FILE:%.idl=$(BUILD_DIR)/%.o) ${SRC_PUBLISHER:%.c=$(BUILD_DIR)/%.o}

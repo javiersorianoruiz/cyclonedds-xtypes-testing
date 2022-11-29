@@ -61,7 +61,7 @@ int main (int argc, char ** argv)
       /* Print Message. */
       msg = (module_test_Msg*) samples[0];
       printf ("=== [Subscriber] Received : ");
-      printf ("Message (%"PRId32",  message: %s)\n", msg->userID, msg->message);
+      printf ("Message (%"PRId32", message: %s , extra_value: %d)\n", msg->userID, msg->message , msg->extra_value);
       fflush (stdout);
       break;
     }
